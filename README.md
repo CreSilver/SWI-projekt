@@ -1,0 +1,1 @@
+## Hlavní drawio soubor se jmenuje: Projekt_Swi.drawio 

@@ -1,0 +1,432 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36" version="29.6.6">
+  <diagram id="np2FOnzW1exFSdxfI_qz" name="Stránka-1">
+    <mxGraphModel dx="1240" dy="646" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontStyle=1;fontSize=16;fontColor=#000000;" value="TŘÍDNÍ DIAGRAM - FULL MODEL (NÁVRH)" vertex="1">
+          <mxGeometry height="30" width="1210" x="20" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="bg1" parent="1" style="text;html=1;strokeColor=#000000;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;overflow=hidden;rotatable=0;fontSize=11;fontStyle=1;fontColor=#000000;" value="ČLEN 1: ADMIN CLASS (Admin)" vertex="1">
+          <mxGeometry height="230" width="370" x="20" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bg2" parent="1" style="text;html=1;strokeColor=#000000;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;overflow=hidden;rotatable=0;fontSize=11;fontStyle=1;fontColor=#000000;" value="ČLEN 2: USER CLASS (User)" vertex="1">
+          <mxGeometry height="230" width="420" x="410" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bg3" parent="1" style="text;html=1;strokeColor=#000000;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;overflow=hidden;rotatable=0;fontSize=11;fontStyle=1;fontColor=#000000;" value="ČLEN 3: COURSE CLASS (Course)" vertex="1">
+          <mxGeometry height="280" width="370" x="20" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="bg4" parent="1" style="text;html=1;strokeColor=#000000;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;overflow=hidden;rotatable=0;fontSize=11;fontStyle=1;fontColor=#000000;" value="ČLEN 4: BACKUP CLASS (Backup) &amp; SYSTEM LOG" vertex="1">
+          <mxGeometry height="280" width="420" x="410" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="bg5" parent="1" style="text;html=1;strokeColor=#000000;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;overflow=hidden;rotatable=0;fontSize=11;fontStyle=1;fontColor=#000000;" value="ČLEN 5: TEACHER CLASS (Teacher)" vertex="1">
+          <mxGeometry height="230" width="380" x="850" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bg6" parent="1" style="text;html=1;strokeColor=#000000;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;overflow=hidden;rotatable=0;fontSize=11;fontStyle=1;fontColor=#000000;" value="ČLEN 6: LESSON CLASS (Lesson)" vertex="1">
+          <mxGeometry height="280" width="380" x="850" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="bg7" parent="1" style="text;html=1;strokeColor=#000000;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;overflow=hidden;rotatable=0;fontSize=11;fontStyle=1;fontColor=#000000;" value="ČLEN 7: ENROLLMENT CLASS (Enrollment)" vertex="1">
+          <mxGeometry height="230" width="370" x="20" y="610" as="geometry" />
+        </mxCell>
+        <mxCell id="bg8" parent="1" style="text;html=1;strokeColor=#000000;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;overflow=hidden;rotatable=0;fontSize=11;fontStyle=1;fontColor=#000000;" value="ČLEN 8: PAYMENT CLASS (Payment)" vertex="1">
+          <mxGeometry height="230" width="420" x="410" y="610" as="geometry" />
+        </mxCell>
+        <mxCell id="bg9" parent="1" style="text;html=1;strokeColor=#000000;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;overflow=hidden;rotatable=0;fontSize=11;fontStyle=1;fontColor=#000000;" value="ČLEN 9: MESSAGE CLASS (Message)" vertex="1">
+          <mxGeometry height="230" width="380" x="850" y="610" as="geometry" />
+        </mxCell>
+        <mxCell id="bg10" parent="1" style="text;html=1;strokeColor=#000000;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;overflow=hidden;rotatable=0;fontSize=11;fontStyle=1;fontColor=#000000;" value="ČLEN 10: STUDY MATERIAL CLASS (StudyMaterial)" vertex="1">
+          <mxGeometry height="210" width="430" x="20" y="860" as="geometry" />
+        </mxCell>
+        <mxCell id="admin_hdr" parent="1" style="swimlane;startSize=25;fontStyle=1;fontSize=11;strokeColor=#000000;fillColor=#ffffff;" value="Admin" vertex="1">
+          <mxGeometry height="150" width="250" x="110" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="admin_attrs" parent="admin_hdr" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=6;fontSize=10;" value="+ adminId: int&#xa;+ name: string&#xa;+ email: string" vertex="1">
+          <mxGeometry height="55" width="250" y="25" as="geometry" />
+        </mxCell>
+        <mxCell id="admin_sep" parent="admin_hdr" style="line;strokeColor=#000000;fillColor=none;" value="" vertex="1">
+          <mxGeometry height="10" width="250" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="admin_methods" parent="admin_hdr" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=6;fontSize=10;" value="+ accessUsers(): void&#xa;+ decideOnDevelopment(): void&#xa;+ accessCourses(): void&#xa;+ arrangePromotion(): void" vertex="1">
+          <mxGeometry height="70" width="250" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="admin_note" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=9;fontStyle=2;" value="Zodpovědnost:&#xa;Hlavní správa" vertex="1">
+          <mxGeometry height="40" width="52" x="40" y="155" as="geometry" />
+        </mxCell>
+        <mxCell id="userstatus_hdr" parent="1" style="swimlane;startSize=35;fontStyle=1;fontSize=10;strokeColor=#000000;fillColor=#ffffff;" value="&lt;&lt;enumeration&gt;&gt;&#xa;UserStatus" vertex="1">
+          <mxGeometry height="80" width="150" x="415" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="userstatus_vals" parent="userstatus_hdr" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=6;fontSize=10;" value="Active&#xa;Blocked&#xa;Deactivated" vertex="1">
+          <mxGeometry height="55" width="150" y="35" as="geometry" />
+        </mxCell>
+        <mxCell id="user_hdr" parent="1" style="swimlane;startSize=25;fontStyle=1;fontSize=11;strokeColor=#000000;fillColor=#ffffff;" value="User" vertex="1">
+          <mxGeometry height="140" width="230" x="580" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="user_attrs" parent="user_hdr" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=6;fontSize=10;" value="+ userId: int&#xa;+ email: string&#xa;+ name: string&#xa;+ status: UserStatus" vertex="1">
+          <mxGeometry height="65" width="230" y="25" as="geometry" />
+        </mxCell>
+        <mxCell id="user_sep" parent="user_hdr" style="line;strokeColor=#000000;fillColor=none;" value="" vertex="1">
+          <mxGeometry height="10" width="230" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="user_methods" parent="user_hdr" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=6;fontSize=10;" value="+ changeStatus(newStatus: UserStatus): void&#xa;+ restoreAccount(): void" vertex="1">
+          <mxGeometry height="60" width="230" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="user_note" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;fontSize=9;fontStyle=2;" value="Zodpovědnost:&#xa;Správa účtů&#xa;(UC2, UC3)" vertex="1">
+          <mxGeometry height="45" width="55" x="1150" y="107.5" as="geometry" />
+        </mxCell>
+        <mxCell id="course_hdr" parent="1" style="swimlane;startSize=25;fontStyle=1;fontSize=11;strokeColor=#000000;fillColor=#ffffff;" value="Course" vertex="1">
+          <mxGeometry height="210" width="250" x="110" y="345" as="geometry" />
+        </mxCell>
+        <mxCell id="course_attrs" parent="course_hdr" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=6;fontSize=10;" value="+ courseId: int&#xa;+ name: string&#xa;+ description: string&#xa;+ isPublic: bool&#xa;+ price: float" vertex="1">
+          <mxGeometry height="80" width="250" y="25" as="geometry" />
+        </mxCell>
+        <mxCell id="course_sep" parent="course_hdr" style="line;strokeColor=#000000;fillColor=none;" value="" vertex="1">
+          <mxGeometry height="10" width="250" y="105" as="geometry" />
+        </mxCell>
+        <mxCell id="course_methods" parent="course_hdr" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=6;fontSize=10;" value="+ edit(newName: string, newDescription: string): void&#xa;+ delete(): void&#xa;+ removeFromPublicListing(): void&#xa;+ publish(): void" vertex="1">
+          <mxGeometry height="95" width="250" y="115" as="geometry" />
+        </mxCell>
+        <mxCell id="course_note" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=9;fontStyle=2;" value="Zodpovědnost:&#xa;Správa kurzů&#xa;(UC8, UC9, UC10)" vertex="1">
+          <mxGeometry height="50" width="52" x="40" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="course_note2" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=9;fontStyle=2;" value="(A3 Edit)&#xa;(UC10 Delete)" vertex="1">
+          <mxGeometry height="35" width="65" x="40" y="490" as="geometry" />
+        </mxCell>
+        <mxCell id="backup_hdr" parent="1" style="swimlane;startSize=25;fontStyle=1;fontSize=11;strokeColor=#000000;fillColor=#ffffff;" value="Backup" vertex="1">
+          <mxGeometry height="140" width="190" x="420" y="345" as="geometry" />
+        </mxCell>
+        <mxCell id="backup_attrs" parent="backup_hdr" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=6;fontSize=10;" value="+ dateCreated: DateTime&#xa;+ backupContent: string" vertex="1">
+          <mxGeometry height="45" width="190" y="25" as="geometry" />
+        </mxCell>
+        <mxCell id="backup_sep" parent="backup_hdr" style="line;strokeColor=#000000;fillColor=none;" value="" vertex="1">
+          <mxGeometry height="10" width="190" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="backup_methods" parent="backup_hdr" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=6;fontSize=10;" value="+ createNewBackup(): void&#xa;+ restoreFromBackup(): void" vertex="1">
+          <mxGeometry height="50" width="190" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="backup_note" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=9;fontStyle=2;" value="(A2 Create)&#xa;(UC6 Backups)" vertex="1">
+          <mxGeometry height="35" width="90" x="475" y="490" as="geometry" />
+        </mxCell>
+        <mxCell id="syslog_hdr" parent="1" style="swimlane;startSize=25;fontStyle=1;fontSize=11;strokeColor=#000000;fillColor=#ffffff;" value="SystemLog" vertex="1">
+          <mxGeometry height="140" width="190" x="625" y="345" as="geometry" />
+        </mxCell>
+        <mxCell id="syslog_attrs" parent="syslog_hdr" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=6;fontSize=10;" value="+ logId: int&#xa;+ timestamp: DateTime&#xa;+ message: string" vertex="1">
+          <mxGeometry height="55" width="190" y="25" as="geometry" />
+        </mxCell>
+        <mxCell id="syslog_sep" parent="syslog_hdr" style="line;strokeColor=#000000;fillColor=none;" value="" vertex="1">
+          <mxGeometry height="10" width="190" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="syslog_methods" parent="syslog_hdr" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=6;fontSize=10;" value="+ writeToLog(message: string): void" vertex="1">
+          <mxGeometry height="35" width="190" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="backup_syslog_note" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=right;verticalAlign=top;fontSize=9;fontStyle=2;" value="Zodpovědnost:&#xa;Zálohy a logování (UC6)" vertex="1">
+          <mxGeometry height="30" width="70" x="685" y="492.5" as="geometry" />
+        </mxCell>
+        <mxCell id="teacher_hdr" parent="1" style="swimlane;startSize=25;fontStyle=1;fontSize=11;strokeColor=#000000;fillColor=#ffffff;" value="Teacher" vertex="1">
+          <mxGeometry height="160" width="270" x="870" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="teacher_attrs" parent="teacher_hdr" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=6;fontSize=10;" value="+ teacherId: int&#xa;+ name: string&#xa;+ email: string&#xa;+ bio: string" vertex="1">
+          <mxGeometry height="65" width="270" y="25" as="geometry" />
+        </mxCell>
+        <mxCell id="teacher_sep" parent="teacher_hdr" style="line;strokeColor=#000000;fillColor=none;" value="" vertex="1">
+          <mxGeometry height="10" width="270" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="teacher_methods" parent="teacher_hdr" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=6;fontSize=10;" value="+ createCourse(): void&#xa;+ manageCourse(courseId: int): void&#xa;+ communicateWithStudent(): void&#xa;+ reportUser(): void" vertex="1">
+          <mxGeometry height="65" width="270" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="teacher_note" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;fontSize=9;fontStyle=2;" value="Zodpovědnost:&#xa;Výuka (UC1-UC9)" vertex="1">
+          <mxGeometry height="40" width="55" x="1160" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="lesson_hdr" parent="1" style="swimlane;startSize=25;fontStyle=1;fontSize=11;strokeColor=#000000;fillColor=#ffffff;" value="Lesson" vertex="1">
+          <mxGeometry height="175" width="270" x="870" y="345" as="geometry" />
+        </mxCell>
+        <mxCell id="lesson_attrs" parent="lesson_hdr" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=6;fontSize=10;" value="+ lessonId: int&#xa;+ scheduledTime: DateTime&#xa;+ duration: int&#xa;+ isActive: bool" vertex="1">
+          <mxGeometry height="65" width="270" y="25" as="geometry" />
+        </mxCell>
+        <mxCell id="lesson_sep" parent="lesson_hdr" style="line;strokeColor=#000000;fillColor=none;" value="" vertex="1">
+          <mxGeometry height="10" width="270" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="lesson_methods" parent="lesson_hdr" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=6;fontSize=10;" value="+ startLesson(): void&#xa;+ endLesson(): void&#xa;+ muteUser(userId: int): void&#xa;+ shareScreen(): void&#xa;+ sendNotification(): void" vertex="1">
+          <mxGeometry height="80" width="270" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="lesson_note" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;fontSize=9;fontStyle=2;" value="Zodpovědnost:&#xa;Vyučování&#xa;(UC7, UC10)" vertex="1">
+          <mxGeometry height="50" width="55" x="1150" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="enroll_hdr" parent="1" style="swimlane;startSize=25;fontStyle=1;fontSize=11;strokeColor=#000000;fillColor=#ffffff;" value="Enrollment" vertex="1">
+          <mxGeometry height="155" width="250" x="110" y="645" as="geometry" />
+        </mxCell>
+        <mxCell id="enroll_attrs" parent="enroll_hdr" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=6;fontSize=10;" value="+ enrollmentId: int&#xa;+ enrolledAt: DateTime&#xa;+ isActive: bool" vertex="1">
+          <mxGeometry height="55" width="250" y="25" as="geometry" />
+        </mxCell>
+        <mxCell id="enroll_sep" parent="enroll_hdr" style="line;strokeColor=#000000;fillColor=none;" value="" vertex="1">
+          <mxGeometry height="10" width="250" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="enroll_methods" parent="enroll_hdr" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=6;fontSize=10;" value="+ enroll(): void&#xa;+ unenroll(): void&#xa;+ extendCourse(): void" vertex="1">
+          <mxGeometry height="55" width="250" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="enroll_note" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=9;fontStyle=2;" value="Zodpovědnost:&#xa;Registrace kurzu&#xa;(UC4, UC11)" vertex="1">
+          <mxGeometry height="50" width="52" x="33" y="702.5" as="geometry" />
+        </mxCell>
+        <mxCell id="pay_hdr" parent="1" style="swimlane;startSize=25;fontStyle=1;fontSize=11;strokeColor=#000000;fillColor=#ffffff;" value="Payment" vertex="1">
+          <mxGeometry height="155" width="250" x="440" y="645" as="geometry" />
+        </mxCell>
+        <mxCell id="pay_attrs" parent="pay_hdr" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=6;fontSize=10;" value="+ paymentId: int&#xa;+ amount: float&#xa;+ status: string&#xa;+ paidAt: DateTime" vertex="1">
+          <mxGeometry height="65" width="250" y="25" as="geometry" />
+        </mxCell>
+        <mxCell id="pay_sep" parent="pay_hdr" style="line;strokeColor=#000000;fillColor=none;" value="" vertex="1">
+          <mxGeometry height="10" width="250" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="pay_methods" parent="pay_hdr" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=6;fontSize=10;" value="+ processPayment(): void&#xa;+ refund(): void&#xa;+ sendInvoice(): void" vertex="1">
+          <mxGeometry height="60" width="250" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="pay_note" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;fontSize=9;fontStyle=2;" value="Zodpovědnost:&#xa;Platba (UC6)" vertex="1">
+          <mxGeometry height="40" width="55" x="710" y="720" as="geometry" />
+        </mxCell>
+        <mxCell id="msg_hdr" parent="1" style="swimlane;startSize=25;fontStyle=1;fontSize=11;strokeColor=#000000;fillColor=#ffffff;" value="Message" vertex="1">
+          <mxGeometry height="135" width="270" x="870" y="645" as="geometry" />
+        </mxCell>
+        <mxCell id="msg_attrs" parent="msg_hdr" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=6;fontSize=10;" value="+ messageId: int&#xa;+ content: string&#xa;+ sentAt: DateTime&#xa;+ isRead: bool" vertex="1">
+          <mxGeometry height="65" width="270" y="25" as="geometry" />
+        </mxCell>
+        <mxCell id="msg_sep" parent="msg_hdr" style="line;strokeColor=#000000;fillColor=none;" value="" vertex="1">
+          <mxGeometry height="10" width="270" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="msg_methods" parent="msg_hdr" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=6;fontSize=10;" value="+ send(): void&#xa;+ markAsRead(): void" vertex="1">
+          <mxGeometry height="50" width="270" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="msg_note" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;fontSize=9;fontStyle=2;" value="Zodpovědnost:&#xa;Komunikace&#xa;(UC3, UC4)" vertex="1">
+          <mxGeometry height="50" width="55" x="1150" y="710" as="geometry" />
+        </mxCell>
+        <mxCell id="mat_hdr" parent="1" style="swimlane;startSize=25;fontStyle=1;fontSize=11;strokeColor=#000000;fillColor=#ffffff;" value="StudyMaterial" vertex="1">
+          <mxGeometry height="155" width="250" x="110" y="895" as="geometry" />
+        </mxCell>
+        <mxCell id="mat_attrs" parent="mat_hdr" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=6;fontSize=10;" value="+ materialId: int&#xa;+ title: string&#xa;+ fileUrl: string&#xa;+ uploadedAt: DateTime" vertex="1">
+          <mxGeometry height="65" width="250" y="25" as="geometry" />
+        </mxCell>
+        <mxCell id="mat_sep" parent="mat_hdr" style="line;strokeColor=#000000;fillColor=none;" value="" vertex="1">
+          <mxGeometry height="10" width="250" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="mat_methods" parent="mat_hdr" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=6;fontSize=10;" value="+ upload(): void&#xa;+ edit(): void&#xa;+ delete(): void" vertex="1">
+          <mxGeometry height="45" width="250" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="mat_note" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=9;fontStyle=2;" value="Zodpovědnost:&#xa;Materiály (UC8)" vertex="1">
+          <mxGeometry height="40" width="52" x="368" y="952.5" as="geometry" />
+        </mxCell>
+        <mxCell id="r1" edge="1" parent="1" source="admin_methods" style="endArrow=open;endFill=0;endSize=8;startArrow=none;strokeColor=#000000;exitX=1;exitY=0;exitDx=0;exitDy=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="580" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r1lbl1" connectable="0" parent="r1" style="resizable=0;html=1;align=left;verticalAlign=bottom;fontSize=9;" value="1" vertex="1">
+          <mxGeometry relative="1" x="-0.85" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r1lbl2" connectable="0" parent="r1" style="resizable=0;html=1;align=right;verticalAlign=bottom;fontSize=9;" value="0..*" vertex="1">
+          <mxGeometry relative="1" x="0.85" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r2" edge="1" parent="1" source="admin_hdr" style="endArrow=open;endFill=0;endSize=8;startArrow=none;strokeColor=#000000;" target="course_hdr" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r2lbl1" connectable="0" parent="r2" style="resizable=0;html=1;align=left;verticalAlign=bottom;fontSize=9;" value="1" vertex="1">
+          <mxGeometry relative="1" x="-0.85" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r2lbl2" connectable="0" parent="r2" style="resizable=0;html=1;align=right;verticalAlign=bottom;fontSize=9;" value="0..*" vertex="1">
+          <mxGeometry relative="1" x="0.85" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r3" edge="1" parent="1" source="admin_hdr" style="endArrow=open;endFill=0;endSize=8;startArrow=none;strokeColor=#000000;entryX=0.133;entryY=0.002;entryDx=0;entryDy=0;entryPerimeter=0;" target="backup_hdr" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="380" y="300" />
+              <mxPoint x="440" y="300" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r3lbl1" connectable="0" parent="r3" style="resizable=0;html=1;align=left;verticalAlign=bottom;fontSize=9;" value="1" vertex="1">
+          <mxGeometry relative="1" x="-0.85" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r3lbl2" connectable="0" parent="r3" style="resizable=0;html=1;align=right;verticalAlign=bottom;fontSize=9;" value="0..*" vertex="1">
+          <mxGeometry relative="1" x="0.85" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r4" edge="1" parent="1" source="backup_hdr" style="endArrow=none;startArrow=diamondThin;startFill=1;startSize=10;strokeColor=#000000;" target="syslog_hdr" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r4lbl1" connectable="0" parent="r4" style="resizable=0;html=1;align=left;verticalAlign=bottom;fontSize=9;" value="1" vertex="1">
+          <mxGeometry relative="1" x="-0.85" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r4lbl2" connectable="0" parent="r4" style="resizable=0;html=1;align=right;verticalAlign=bottom;fontSize=9;" value="0..*" vertex="1">
+          <mxGeometry relative="1" x="0.85" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r5" edge="1" parent="1" source="userstatus_hdr" style="endArrow=open;endFill=0;endSize=8;startArrow=none;strokeColor=#000000;dashed=1;" target="user_hdr" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r6" edge="1" parent="1" source="user_hdr" style="endArrow=open;endFill=0;endSize=8;startArrow=none;strokeColor=#000000;entryX=0.987;entryY=0.104;entryDx=0;entryDy=0;entryPerimeter=0;" target="enroll_hdr" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="520" y="300" />
+              <mxPoint x="400" y="300" />
+              <mxPoint x="400" y="480" />
+              <mxPoint x="400" y="660" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r6lbl1" connectable="0" parent="r6" style="resizable=0;html=1;align=left;verticalAlign=bottom;fontSize=9;" value="1" vertex="1">
+          <mxGeometry relative="1" x="-0.85" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r6lbl2" connectable="0" parent="r6" style="resizable=0;html=1;align=right;verticalAlign=bottom;fontSize=9;" value="0..*" vertex="1">
+          <mxGeometry relative="1" x="0.85" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r7" edge="1" parent="1" source="enroll_hdr" style="endArrow=open;endFill=0;endSize=8;startArrow=none;strokeColor=#000000;" target="course_hdr" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r7lbl1" connectable="0" parent="r7" style="resizable=0;html=1;align=left;verticalAlign=bottom;fontSize=9;" value="0..*" vertex="1">
+          <mxGeometry relative="1" x="-0.85" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r7lbl2" connectable="0" parent="r7" style="resizable=0;html=1;align=right;verticalAlign=bottom;fontSize=9;" value="1" vertex="1">
+          <mxGeometry relative="1" x="0.85" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r8" edge="1" parent="1" source="enroll_hdr" style="endArrow=open;endFill=0;endSize=8;startArrow=none;strokeColor=#000000;entryX=0;entryY=0.851;entryDx=0;entryDy=0;entryPerimeter=0;" target="pay_attrs" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r8lbl1" connectable="0" parent="r8" style="resizable=0;html=1;align=left;verticalAlign=bottom;fontSize=9;" value="1" vertex="1">
+          <mxGeometry relative="1" x="-0.85" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r8lbl2" connectable="0" parent="r8" style="resizable=0;html=1;align=right;verticalAlign=bottom;fontSize=9;" value="1" vertex="1">
+          <mxGeometry relative="1" x="0.85" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r9" edge="1" parent="1" source="teacher_hdr" style="endArrow=open;endFill=0;endSize=8;startArrow=none;strokeColor=#000000;" target="course_hdr" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="830" y="300" />
+              <mxPoint x="600" y="300" />
+              <mxPoint x="300" y="300" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r9lbl1" connectable="0" parent="r9" style="resizable=0;html=1;align=right;verticalAlign=bottom;fontSize=9;" value="1" vertex="1">
+          <mxGeometry relative="1" x="-0.85" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r9lbl2" connectable="0" parent="r9" style="resizable=0;html=1;align=left;verticalAlign=bottom;fontSize=9;" value="0..*" vertex="1">
+          <mxGeometry relative="1" x="0.85" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r10" edge="1" parent="1" style="endArrow=open;endFill=0;endSize=8;startArrow=none;strokeColor=#000000;entryX=0.665;entryY=0.002;entryDx=0;entryDy=0;entryPerimeter=0;" target="lesson_hdr" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1050" y="310" />
+            </Array>
+            <mxPoint x="1050" y="260" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r10lbl1" connectable="0" parent="r10" style="resizable=0;html=1;align=left;verticalAlign=bottom;fontSize=9;" value="1" vertex="1">
+          <mxGeometry relative="1" x="-0.85" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r10lbl2" connectable="0" parent="r10" style="resizable=0;html=1;align=right;verticalAlign=bottom;fontSize=9;" value="0..*" vertex="1">
+          <mxGeometry relative="1" x="0.85" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r11" edge="1" parent="1" source="course_methods" style="endArrow=open;endFill=0;endSize=8;startArrow=none;strokeColor=#000000;entryX=-0.005;entryY=0.363;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1.014;exitY=0.102;exitDx=0;exitDy=0;exitPerimeter=0;" target="lesson_methods" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r11lbl1" connectable="0" parent="r11" style="resizable=0;html=1;align=left;verticalAlign=bottom;fontSize=9;" value="1" vertex="1">
+          <mxGeometry relative="1" x="-0.85" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r11lbl2" connectable="0" parent="r11" style="resizable=0;html=1;align=right;verticalAlign=bottom;fontSize=9;" value="0..*" vertex="1">
+          <mxGeometry relative="1" x="0.85" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r12" edge="1" parent="1" source="course_methods" style="endArrow=open;endFill=0;endSize=8;startArrow=none;strokeColor=#000000;exitX=0;exitY=1;exitDx=0;exitDy=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="10" y="555" />
+              <mxPoint x="10" y="895" />
+            </Array>
+            <mxPoint x="110" y="895" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r12lbl1" connectable="0" parent="r12" style="resizable=0;html=1;align=left;verticalAlign=bottom;fontSize=9;" value="1" vertex="1">
+          <mxGeometry relative="1" x="-0.85" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r12lbl2" connectable="0" parent="r12" style="resizable=0;html=1;align=right;verticalAlign=bottom;fontSize=9;" value="0..*" vertex="1">
+          <mxGeometry relative="1" x="0.85" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r13" edge="1" parent="1" source="user_hdr" style="endArrow=open;endFill=0;endSize=8;startArrow=none;strokeColor=#000000;" target="msg_hdr" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="840" y="300" />
+              <mxPoint x="840" y="400" />
+              <mxPoint x="840" y="600" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r13lbl1" connectable="0" parent="r13" style="resizable=0;html=1;align=left;verticalAlign=bottom;fontSize=9;" value="1" vertex="1">
+          <mxGeometry relative="1" x="-0.85" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r13lbl2" connectable="0" parent="r13" style="resizable=0;html=1;align=right;verticalAlign=bottom;fontSize=9;" value="0..*" vertex="1">
+          <mxGeometry relative="1" x="0.85" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r14" edge="1" parent="1" source="teacher_methods" style="endArrow=open;endFill=0;endSize=8;startArrow=none;strokeColor=#000000;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;" target="msg_hdr" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1280" y="223" />
+              <mxPoint x="1280" y="430" />
+              <mxPoint x="1280" y="645" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r14lbl1" connectable="0" parent="r14" style="resizable=0;html=1;align=left;verticalAlign=bottom;fontSize=9;" value="1" vertex="1">
+          <mxGeometry relative="1" x="-0.85" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r14lbl2" connectable="0" parent="r14" style="resizable=0;html=1;align=right;verticalAlign=bottom;fontSize=9;" value="0..*" vertex="1">
+          <mxGeometry relative="1" x="0.85" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
