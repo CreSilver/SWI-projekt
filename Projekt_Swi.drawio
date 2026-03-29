@@ -1,0 +1,1210 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.6.6 Chrome/144.0.7559.236 Electron/40.8.4 Safari/537.36" version="29.6.6">
+  <diagram name="Stránka-1" id="R_A94fPjkbCK7uzgsJNr">
+    <mxGraphModel dx="2352" dy="1638" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="V8Xsm6yOyh70pujdgEbl-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=32;fontStyle=1;" value="Usecases" vertex="1">
+          <mxGeometry height="30" width="208" x="249" y="99" as="geometry" />
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-50" connectable="0" parent="1" style="group;" value="" vertex="1">
+          <mxGeometry height="1425" width="1175" x="-1054" y="248" as="geometry" />
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-49" parent="xRVcoeAHJEwT6_EBcB39-50" style="rounded=1;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;dashed=1;dashPattern=8 8;" value="" vertex="1">
+          <mxGeometry height="680" width="1063" y="51" as="geometry" />
+        </mxCell>
+        <mxCell id="V8Xsm6yOyh70pujdgEbl-7" parent="xRVcoeAHJEwT6_EBcB39-50" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" value="user" vertex="1">
+          <mxGeometry height="60" width="30" x="175" y="99" as="geometry" />
+        </mxCell>
+        <mxCell id="V8Xsm6yOyh70pujdgEbl-20" parent="xRVcoeAHJEwT6_EBcB39-50" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" value="&lt;u&gt;&lt;b&gt;Základní struktúra&lt;/b&gt;&lt;/u&gt;" vertex="1">
+          <mxGeometry height="30" width="178" x="422" as="geometry" />
+        </mxCell>
+        <mxCell id="V8Xsm6yOyh70pujdgEbl-23" parent="xRVcoeAHJEwT6_EBcB39-50" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" value="teacher" vertex="1">
+          <mxGeometry height="60" width="30" x="175" y="213" as="geometry" />
+        </mxCell>
+        <mxCell id="V8Xsm6yOyh70pujdgEbl-30" edge="1" parent="xRVcoeAHJEwT6_EBcB39-50" source="V8Xsm6yOyh70pujdgEbl-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=1;entryDx=0;entryDy=0;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" target="V8Xsm6yOyh70pujdgEbl-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="V8Xsm6yOyh70pujdgEbl-25" parent="xRVcoeAHJEwT6_EBcB39-50" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" value="admin" vertex="1">
+          <mxGeometry height="60" width="30" x="175" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-6" edge="1" parent="xRVcoeAHJEwT6_EBcB39-50" source="V8Xsm6yOyh70pujdgEbl-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;endArrow=none;endFill=0;" target="xRVcoeAHJEwT6_EBcB39-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-7" edge="1" parent="xRVcoeAHJEwT6_EBcB39-50" source="V8Xsm6yOyh70pujdgEbl-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;endArrow=none;endFill=0;" target="xRVcoeAHJEwT6_EBcB39-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="V8Xsm6yOyh70pujdgEbl-27" parent="xRVcoeAHJEwT6_EBcB39-50" style="ellipse;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" value="Logon Validation" vertex="1">
+          <mxGeometry height="311" width="120" x="298" y="94" as="geometry" />
+        </mxCell>
+        <mxCell id="V8Xsm6yOyh70pujdgEbl-28" edge="1" parent="xRVcoeAHJEwT6_EBcB39-50" source="V8Xsm6yOyh70pujdgEbl-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.215;entryY=0.11;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;endArrow=none;endFill=0;" target="V8Xsm6yOyh70pujdgEbl-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="V8Xsm6yOyh70pujdgEbl-29" edge="1" parent="xRVcoeAHJEwT6_EBcB39-50" source="V8Xsm6yOyh70pujdgEbl-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.036;entryY=0.478;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;endArrow=none;endFill=0;" target="V8Xsm6yOyh70pujdgEbl-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-1" parent="xRVcoeAHJEwT6_EBcB39-50" style="ellipse;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" value="Výběr kurzu" vertex="1">
+          <mxGeometry height="38" width="103" x="445" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-2" edge="1" parent="xRVcoeAHJEwT6_EBcB39-50" source="xRVcoeAHJEwT6_EBcB39-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" target="xRVcoeAHJEwT6_EBcB39-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-3" parent="xRVcoeAHJEwT6_EBcB39-50" style="ellipse;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" value="Organizace kurzu" vertex="1">
+          <mxGeometry height="38" width="122" x="481" y="230.5" as="geometry" />
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-5" parent="xRVcoeAHJEwT6_EBcB39-50" style="ellipse;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" value="Správa systému" vertex="1">
+          <mxGeometry height="37" width="103" x="445" y="341.5" as="geometry" />
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-8" edge="1" parent="xRVcoeAHJEwT6_EBcB39-50" source="xRVcoeAHJEwT6_EBcB39-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.793;entryY=0.115;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;endArrow=none;endFill=0;" target="V8Xsm6yOyh70pujdgEbl-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-10" parent="xRVcoeAHJEwT6_EBcB39-50" style="ellipse;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" value="Rezervace kurzu" vertex="1">
+          <mxGeometry height="38" width="122" x="613" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-11" parent="xRVcoeAHJEwT6_EBcB39-50" style="ellipse;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" value="Účast na kurzu" vertex="1">
+          <mxGeometry height="38" width="103" x="706" y="192.5" as="geometry" />
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-13" edge="1" parent="xRVcoeAHJEwT6_EBcB39-50" source="xRVcoeAHJEwT6_EBcB39-10" style="endArrow=classic;html=1;rounded=0;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;dashed=1;dashPattern=8 8;" target="xRVcoeAHJEwT6_EBcB39-1" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="645" y="265" as="sourcePoint" />
+            <mxPoint x="561" y="135" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-16" connectable="0" parent="xRVcoeAHJEwT6_EBcB39-13" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" value="Extend" vertex="1">
+          <mxGeometry relative="1" x="-0.1148" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-15" edge="1" parent="xRVcoeAHJEwT6_EBcB39-50" source="xRVcoeAHJEwT6_EBcB39-11" style="endArrow=classic;html=1;rounded=0;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;entryX=0.81;entryY=0.929;entryDx=0;entryDy=0;dashed=1;dashPattern=8 8;entryPerimeter=0;" target="xRVcoeAHJEwT6_EBcB39-10" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="753" y="247" as="sourcePoint" />
+            <mxPoint x="688" y="247" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-17" connectable="0" parent="xRVcoeAHJEwT6_EBcB39-15" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" value="Extend" vertex="1">
+          <mxGeometry relative="1" x="0.0442" y="-1" as="geometry">
+            <mxPoint x="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-18" parent="xRVcoeAHJEwT6_EBcB39-50" style="ellipse;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" value="Logon Validation" vertex="1">
+          <mxGeometry height="43" width="120" x="194" y="492" as="geometry" />
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-19" parent="xRVcoeAHJEwT6_EBcB39-50" style="ellipse;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" value="Organizace kurzu" vertex="1">
+          <mxGeometry height="38" width="122" x="44" y="587" as="geometry" />
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-21" parent="xRVcoeAHJEwT6_EBcB39-50" style="ellipse;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" value="Rezervace kurzu" vertex="1">
+          <mxGeometry height="38" width="122" x="138" y="639" as="geometry" />
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-23" parent="xRVcoeAHJEwT6_EBcB39-50" style="ellipse;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" value="Správa systému" vertex="1">
+          <mxGeometry height="37" width="103" x="235" y="585" as="geometry" />
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-24" parent="xRVcoeAHJEwT6_EBcB39-50" style="ellipse;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" value="Platba" vertex="1">
+          <mxGeometry height="39" width="84" x="359" y="607" as="geometry" />
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-25" parent="xRVcoeAHJEwT6_EBcB39-50" style="ellipse;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" value="Heslo" vertex="1">
+          <mxGeometry height="42" width="92" x="405" y="524" as="geometry" />
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-27" edge="1" parent="xRVcoeAHJEwT6_EBcB39-50" source="xRVcoeAHJEwT6_EBcB39-25" style="endArrow=classic;html=1;rounded=0;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;exitX=0.041;exitY=0.378;exitDx=0;exitDy=0;entryX=0.985;entryY=0.642;entryDx=0;entryDy=0;entryPerimeter=0;exitPerimeter=0;" target="xRVcoeAHJEwT6_EBcB39-18" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="382" y="513" as="sourcePoint" />
+            <mxPoint x="432" y="463" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-28" edge="1" parent="xRVcoeAHJEwT6_EBcB39-50" source="xRVcoeAHJEwT6_EBcB39-24" style="endArrow=classic;html=1;rounded=0;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;exitX=0.199;exitY=-0.02;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=1;entryDx=0;entryDy=0;dashed=1;dashPattern=8 8;" target="xRVcoeAHJEwT6_EBcB39-18" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="147" y="471" as="sourcePoint" />
+            <mxPoint x="197" y="421" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-34" connectable="0" parent="xRVcoeAHJEwT6_EBcB39-28" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" value="User" vertex="1">
+          <mxGeometry relative="1" x="-0.4714" y="5" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-29" edge="1" parent="xRVcoeAHJEwT6_EBcB39-50" source="xRVcoeAHJEwT6_EBcB39-19" style="endArrow=classic;html=1;rounded=0;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;exitX=0.857;exitY=-0.013;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=1;entryDx=0;entryDy=0;dashed=1;dashPattern=8 8;" target="xRVcoeAHJEwT6_EBcB39-18" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="72" y="428" as="sourcePoint" />
+            <mxPoint x="122" y="378" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-32" connectable="0" parent="xRVcoeAHJEwT6_EBcB39-29" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" value="Teacher" vertex="1">
+          <mxGeometry relative="1" x="-0.2544" y="4" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-30" edge="1" parent="xRVcoeAHJEwT6_EBcB39-50" source="xRVcoeAHJEwT6_EBcB39-21" style="endArrow=classic;html=1;rounded=0;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;entryX=0.364;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;dashed=1;dashPattern=8 8;" target="xRVcoeAHJEwT6_EBcB39-18" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="59" y="515" as="sourcePoint" />
+            <mxPoint x="109" y="465" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-33" connectable="0" parent="xRVcoeAHJEwT6_EBcB39-30" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" value="User" vertex="1">
+          <mxGeometry relative="1" x="-0.6157" y="3" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-31" edge="1" parent="xRVcoeAHJEwT6_EBcB39-50" source="xRVcoeAHJEwT6_EBcB39-23" style="endArrow=classic;html=1;rounded=0;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;entryX=0.64;entryY=0.976;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.423;exitY=0.025;exitDx=0;exitDy=0;exitPerimeter=0;" target="xRVcoeAHJEwT6_EBcB39-18" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="79" y="436" as="sourcePoint" />
+            <mxPoint x="129" y="386" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-36" parent="xRVcoeAHJEwT6_EBcB39-50" style="ellipse;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" value="Organizace kurzu" vertex="1">
+          <mxGeometry height="38" width="122" x="736" y="502" as="geometry" />
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-37" parent="xRVcoeAHJEwT6_EBcB39-50" style="ellipse;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" value="Částečná správa uživatelů" vertex="1">
+          <mxGeometry height="38" width="122" x="548" y="477" as="geometry" />
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-38" parent="xRVcoeAHJEwT6_EBcB39-50" style="ellipse;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" value="Správa cvičení" vertex="1">
+          <mxGeometry height="38" width="122" x="632" y="615" as="geometry" />
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-39" parent="xRVcoeAHJEwT6_EBcB39-50" style="ellipse;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" value="Tvorba/zrušení kurzu" vertex="1">
+          <mxGeometry height="38" width="122" x="585" y="544" as="geometry" />
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-40" parent="xRVcoeAHJEwT6_EBcB39-50" style="ellipse;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" value="Vyučování" vertex="1">
+          <mxGeometry height="38" width="122" x="781" y="623" as="geometry" />
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-41" parent="xRVcoeAHJEwT6_EBcB39-50" style="ellipse;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" value="Úprava kurzu" vertex="1">
+          <mxGeometry height="38" width="122" x="918" y="485" as="geometry" />
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-42" parent="xRVcoeAHJEwT6_EBcB39-50" style="ellipse;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" value="Správa studyjních materiálů" vertex="1">
+          <mxGeometry height="38" width="122" x="872" y="553" as="geometry" />
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-43" edge="1" parent="xRVcoeAHJEwT6_EBcB39-50" source="xRVcoeAHJEwT6_EBcB39-37" style="endArrow=classic;html=1;rounded=0;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.002;entryY=0.373;entryDx=0;entryDy=0;entryPerimeter=0;" target="xRVcoeAHJEwT6_EBcB39-36" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="746" y="449" as="sourcePoint" />
+            <mxPoint x="796" y="399" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-44" edge="1" parent="xRVcoeAHJEwT6_EBcB39-50" source="xRVcoeAHJEwT6_EBcB39-39" style="endArrow=classic;html=1;rounded=0;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" target="xRVcoeAHJEwT6_EBcB39-36" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="683" y="433" as="sourcePoint" />
+            <mxPoint x="733" y="383" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-45" edge="1" parent="xRVcoeAHJEwT6_EBcB39-50" source="xRVcoeAHJEwT6_EBcB39-38" style="endArrow=classic;html=1;rounded=0;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;exitX=0.777;exitY=0.064;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.286;entryY=1.036;entryDx=0;entryDy=0;entryPerimeter=0;" target="xRVcoeAHJEwT6_EBcB39-36" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="778" y="606" as="sourcePoint" />
+            <mxPoint x="828" y="556" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-46" edge="1" parent="xRVcoeAHJEwT6_EBcB39-50" source="xRVcoeAHJEwT6_EBcB39-40" style="endArrow=classic;html=1;rounded=0;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" target="xRVcoeAHJEwT6_EBcB39-36" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="800" y="485" as="sourcePoint" />
+            <mxPoint x="850" y="435" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-47" edge="1" parent="xRVcoeAHJEwT6_EBcB39-50" source="xRVcoeAHJEwT6_EBcB39-42" style="endArrow=classic;html=1;rounded=0;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;exitX=0.025;exitY=0.29;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.942;entryY=0.807;entryDx=0;entryDy=0;entryPerimeter=0;" target="xRVcoeAHJEwT6_EBcB39-36" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="821" y="454" as="sourcePoint" />
+            <mxPoint x="871" y="404" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-48" edge="1" parent="xRVcoeAHJEwT6_EBcB39-50" source="xRVcoeAHJEwT6_EBcB39-41" style="endArrow=classic;html=1;rounded=0;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;exitX=-0.031;exitY=0.398;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.974;entryY=0.36;entryDx=0;entryDy=0;entryPerimeter=0;" target="xRVcoeAHJEwT6_EBcB39-36" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="852" y="484" as="sourcePoint" />
+            <mxPoint x="902" y="434" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-98" connectable="0" parent="xRVcoeAHJEwT6_EBcB39-50" style="group;" value="" vertex="1">
+          <mxGeometry height="681" width="1189" x="-14" y="744" as="geometry" />
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-97" parent="xRVcoeAHJEwT6_EBcB39-98" style="rounded=1;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;dashed=1;dashPattern=8 8;" value="" vertex="1">
+          <mxGeometry height="644" width="1189" y="37" as="geometry" />
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-54" parent="xRVcoeAHJEwT6_EBcB39-98" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" value="teacher" vertex="1">
+          <mxGeometry height="60" width="30" x="45" y="189" as="geometry" />
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-55" parent="xRVcoeAHJEwT6_EBcB39-98" style="ellipse;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" value="Organizace kurzu" vertex="1">
+          <mxGeometry height="35" width="127.5" x="307.5" y="119" as="geometry" />
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-56" parent="xRVcoeAHJEwT6_EBcB39-98" style="ellipse;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" value="Tvorba kurzu" vertex="1">
+          <mxGeometry height="35" width="107" x="129" y="103" as="geometry" />
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-57" parent="xRVcoeAHJEwT6_EBcB39-98" style="ellipse;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" value="Komunikace se studenty" vertex="1">
+          <mxGeometry height="35" width="127.5" x="144" y="177" as="geometry" />
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-58" edge="1" parent="xRVcoeAHJEwT6_EBcB39-98" style="endArrow=none;html=1;rounded=0;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;entryX=0.016;entryY=0.671;entryDx=0;entryDy=0;entryPerimeter=0;" target="xRVcoeAHJEwT6_EBcB39-56" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="79" y="192" as="sourcePoint" />
+            <mxPoint x="127" y="82" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-59" edge="1" parent="xRVcoeAHJEwT6_EBcB39-98" style="endArrow=none;html=1;rounded=0;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="xRVcoeAHJEwT6_EBcB39-57" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="79" y="223" as="sourcePoint" />
+            <mxPoint x="188" y="283" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-60" edge="1" parent="xRVcoeAHJEwT6_EBcB39-98" source="xRVcoeAHJEwT6_EBcB39-55" style="endArrow=classic;html=1;rounded=0;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;dashed=1;dashPattern=8 8;" target="xRVcoeAHJEwT6_EBcB39-56" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="402" y="206" as="sourcePoint" />
+            <mxPoint x="452" y="156" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-62" connectable="0" parent="xRVcoeAHJEwT6_EBcB39-60" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" value="Extend" vertex="1">
+          <mxGeometry relative="1" x="-0.3391" y="1" as="geometry">
+            <mxPoint y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-61" edge="1" parent="xRVcoeAHJEwT6_EBcB39-98" source="xRVcoeAHJEwT6_EBcB39-57" style="endArrow=classic;html=1;rounded=0;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;dashed=1;dashPattern=8 8;" target="xRVcoeAHJEwT6_EBcB39-55" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="320" y="241" as="sourcePoint" />
+            <mxPoint x="370" y="191" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-63" connectable="0" parent="xRVcoeAHJEwT6_EBcB39-61" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" value="Include" vertex="1">
+          <mxGeometry relative="1" x="-0.1694" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-64" parent="xRVcoeAHJEwT6_EBcB39-98" style="ellipse;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" value="Organizace kurzu" vertex="1">
+          <mxGeometry height="35" width="127.5" x="172" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-65" edge="1" parent="xRVcoeAHJEwT6_EBcB39-98" style="endArrow=none;html=1;rounded=0;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;entryX=0.064;entryY=0.27;entryDx=0;entryDy=0;endFill=0;entryPerimeter=0;" target="xRVcoeAHJEwT6_EBcB39-64" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="76" y="235" as="sourcePoint" />
+            <mxPoint x="145" y="305" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-66" parent="xRVcoeAHJEwT6_EBcB39-98" style="ellipse;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" value="Částečná správa studentů" vertex="1">
+          <mxGeometry height="35" width="127.5" x="24" y="351.5" as="geometry" />
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-67" parent="xRVcoeAHJEwT6_EBcB39-98" style="ellipse;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" value="Zrušení kurzu" vertex="1">
+          <mxGeometry height="35" width="127.5" x="48.5" y="429.5" as="geometry" />
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-68" parent="xRVcoeAHJEwT6_EBcB39-98" style="ellipse;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" value="Správa cvičení" vertex="1">
+          <mxGeometry height="35" width="127.5" x="155.5" y="479.5" as="geometry" />
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-69" parent="xRVcoeAHJEwT6_EBcB39-98" style="ellipse;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" value="Správa studyjních materiálů" vertex="1">
+          <mxGeometry height="46" width="135" x="353" y="313" as="geometry" />
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-70" parent="xRVcoeAHJEwT6_EBcB39-98" style="ellipse;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" value="Vyučování" vertex="1">
+          <mxGeometry height="35" width="110.25" x="240" y="429.5" as="geometry" />
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-71" parent="xRVcoeAHJEwT6_EBcB39-98" style="ellipse;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" value="Úprava kurzu" vertex="1">
+          <mxGeometry height="35" width="110.25" x="315.88" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-72" edge="1" parent="xRVcoeAHJEwT6_EBcB39-98" source="xRVcoeAHJEwT6_EBcB39-66" style="endArrow=classic;html=1;rounded=0;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0.014;entryY=0.73;entryDx=0;entryDy=0;entryPerimeter=0;" target="xRVcoeAHJEwT6_EBcB39-64" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="222" y="405" as="sourcePoint" />
+            <mxPoint x="272" y="355" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-73" edge="1" parent="xRVcoeAHJEwT6_EBcB39-98" source="xRVcoeAHJEwT6_EBcB39-67" style="endArrow=classic;html=1;rounded=0;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;exitX=0.811;exitY=-0.025;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.241;entryY=1.029;entryDx=0;entryDy=0;entryPerimeter=0;" target="xRVcoeAHJEwT6_EBcB39-64" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="193" y="404" as="sourcePoint" />
+            <mxPoint x="243" y="354" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-74" edge="1" parent="xRVcoeAHJEwT6_EBcB39-98" source="xRVcoeAHJEwT6_EBcB39-68" style="endArrow=classic;html=1;rounded=0;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;exitX=0.439;exitY=-0.093;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.398;entryY=1.082;entryDx=0;entryDy=0;entryPerimeter=0;" target="xRVcoeAHJEwT6_EBcB39-64" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="222" y="396" as="sourcePoint" />
+            <mxPoint x="272" y="346" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-75" edge="1" parent="xRVcoeAHJEwT6_EBcB39-98" source="xRVcoeAHJEwT6_EBcB39-70" style="endArrow=classic;html=1;rounded=0;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;exitX=0.358;exitY=0.022;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.591;entryY=1.042;entryDx=0;entryDy=0;entryPerimeter=0;" target="xRVcoeAHJEwT6_EBcB39-64" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="236" y="386" as="sourcePoint" />
+            <mxPoint x="286" y="336" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-76" edge="1" parent="xRVcoeAHJEwT6_EBcB39-98" source="xRVcoeAHJEwT6_EBcB39-71" style="endArrow=classic;html=1;rounded=0;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=1;entryDx=0;entryDy=0;" target="xRVcoeAHJEwT6_EBcB39-64" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="308" y="335" as="sourcePoint" />
+            <mxPoint x="358" y="285" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-77" edge="1" parent="xRVcoeAHJEwT6_EBcB39-98" source="xRVcoeAHJEwT6_EBcB39-69" style="endArrow=classic;html=1;rounded=0;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;exitX=0.008;exitY=0.372;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.978;entryY=0.638;entryDx=0;entryDy=0;entryPerimeter=0;" target="xRVcoeAHJEwT6_EBcB39-64" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="335" y="278" as="sourcePoint" />
+            <mxPoint x="385" y="228" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-78" parent="xRVcoeAHJEwT6_EBcB39-98" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" value="UC2" vertex="1">
+          <mxGeometry height="30" width="60" x="341.25" y="89" as="geometry" />
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-79" parent="xRVcoeAHJEwT6_EBcB39-98" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" value="UC1" vertex="1">
+          <mxGeometry height="30" width="60" x="211" y="92" as="geometry" />
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-81" parent="xRVcoeAHJEwT6_EBcB39-98" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" value="UC3" vertex="1">
+          <mxGeometry height="30" width="60" x="228" y="201" as="geometry" />
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-82" parent="xRVcoeAHJEwT6_EBcB39-98" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" value="UC4" vertex="1">
+          <mxGeometry height="30" width="60" x="75" y="321" as="geometry" />
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-83" parent="xRVcoeAHJEwT6_EBcB39-98" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" value="UC5" vertex="1">
+          <mxGeometry height="30" width="60" x="99" y="404" as="geometry" />
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-85" parent="xRVcoeAHJEwT6_EBcB39-98" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" value="UC2" vertex="1">
+          <mxGeometry height="30" width="60" x="205.75" y="265" as="geometry" />
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-86" parent="xRVcoeAHJEwT6_EBcB39-98" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" value="UC6" vertex="1">
+          <mxGeometry height="30" width="60" x="162" y="455" as="geometry" />
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-87" parent="xRVcoeAHJEwT6_EBcB39-98" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" value="UC7" vertex="1">
+          <mxGeometry height="30" width="60" x="268" y="406" as="geometry" />
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-88" parent="xRVcoeAHJEwT6_EBcB39-98" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" value="UC8" vertex="1">
+          <mxGeometry height="30" width="60" x="393" y="287" as="geometry" />
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-89" parent="xRVcoeAHJEwT6_EBcB39-98" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" value="UC9" vertex="1">
+          <mxGeometry height="30" width="60" x="341.25" y="356.5" as="geometry" />
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-90" parent="xRVcoeAHJEwT6_EBcB39-98" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;UC1&lt;/h1&gt;&lt;p&gt;&lt;font face=&quot;Helvetica&quot;&gt;1) Učitel klikne na tlačítko vytvořit kurz&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font face=&quot;Helvetica&quot;&gt;2) Systém zobrazí formulář pro vytvoření kurzu&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font face=&quot;Helvetica&quot;&gt;3)Učitel správně vyplní formulář a klikne na vytvořit&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font face=&quot;Helvetica&quot;&gt;4) Systém vytvoří kurz a přidá ho učiteli na účet&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font face=&quot;Helvetica&quot;&gt;5) Dále učitel může upravovat daný kurz a spravovat ho, viz UC2&lt;/font&gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="243" width="265" x="521" y="53" as="geometry" />
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-91" parent="xRVcoeAHJEwT6_EBcB39-98" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;UC2&lt;/h1&gt;&lt;p&gt;&lt;font face=&quot;Helvetica&quot;&gt;Systém umožní učiteli:&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font face=&quot;Helvetica&quot;&gt;&amp;nbsp; &amp;nbsp;1) Přidání, úpravu a odstranění materiálů -&amp;gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;UC8&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font face=&quot;Helvetica&quot;&gt;&amp;nbsp; &amp;nbsp;2) Přidání, úpravu a odstranění úkolů&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font face=&quot;Helvetica&quot;&gt;&amp;nbsp; &amp;nbsp;3) Plánování a vytváření rozvrhu a jeho&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; následná úprava&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font face=&quot;Helvetica&quot;&gt;&amp;nbsp; &amp;nbsp;4) Zahajování a ukončení vyučování&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font face=&quot;Helvetica&quot;&gt;&amp;nbsp; &amp;nbsp;5) Možnost smazání kurzu&lt;/font&gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="243" width="265" x="521" y="263.5" as="geometry" />
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-92" parent="xRVcoeAHJEwT6_EBcB39-98" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;UC3&lt;/h1&gt;&lt;p&gt;&lt;font face=&quot;Helvetica&quot;&gt;1) Po zaplaceníkurzu uživatelem, se objeví&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; možnost přímé komunikace se studenty&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; (skupinově)&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font face=&quot;Helvetica&quot;&gt;2)&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Po zaplaceníkurzu uživatelem, se objeví&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;možnost přímé komunikace se studenty&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;(skupinově)&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="165" width="265" x="521" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-93" parent="xRVcoeAHJEwT6_EBcB39-98" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;UC4&lt;/h1&gt;&lt;p&gt;&lt;font face=&quot;Helvetica&quot;&gt;1) Učitel má možnost nahlásit uživatele za nevhodné chování&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font face=&quot;Helvetica&quot;&gt;2)&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Učitel má možnost ztlumovat uživatele v callu&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="117" width="265" x="813" y="55" as="geometry" />
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-94" parent="xRVcoeAHJEwT6_EBcB39-98" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;UC5&lt;/h1&gt;&lt;p&gt;&lt;font face=&quot;Helvetica&quot;&gt;1) Učitel má možnost zrušit a vymazat kurz&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="77.5" width="265" x="813" y="178.25" as="geometry" />
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-95" parent="xRVcoeAHJEwT6_EBcB39-98" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;UC6&lt;/h1&gt;&lt;div style=&quot;font-family: Helvetica; font-weight: 700; text-wrap-mode: nowrap;&quot;&gt;&lt;div&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;1) Možnost tvorby úkolů&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;2) Možnost úpravy úkolů&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;3) Možnost hodnocení, přidání komentářů u odevzdaných úkolů&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;4) Možnost zrušení úkolů&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;h1 style=&quot;font-family: &amp;quot;Architects Daughter&amp;quot;; text-wrap-mode: wrap; margin-top: 0px;&quot;&gt;UC7&lt;/h1&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;1) Učitel má možnost tvorby a zrušení hodin&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;2) Učitel může zahájit a ukončit hodinu&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;3) Možnost sdílení obrazovky, ztlumení uživatelů, atd.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;h1 style=&quot;text-wrap-mode: wrap; font-family: &amp;quot;Architects Daughter&amp;quot;; margin-top: 0px;&quot;&gt;UC9&lt;/h1&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;1) Změna informací o kurzu&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="323.5" width="366" x="813" y="263.5" as="geometry" />
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-211" parent="xRVcoeAHJEwT6_EBcB39-98" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" value="&lt;u&gt;&lt;b&gt;Učitele&lt;/b&gt;&lt;/u&gt;" vertex="1">
+          <mxGeometry height="30" width="178" x="498" y="3" as="geometry" />
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-52" connectable="0" parent="1" style="group;" value="" vertex="1">
+          <mxGeometry height="356" width="593" x="51" y="231" as="geometry" />
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-51" parent="xRVcoeAHJEwT6_EBcB39-52" style="rounded=1;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;dashed=1;dashPattern=8 8;" value="" vertex="1">
+          <mxGeometry height="312" width="593" y="44" as="geometry" />
+        </mxCell>
+        <mxCell id="V8Xsm6yOyh70pujdgEbl-2" parent="xRVcoeAHJEwT6_EBcB39-52" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" value="noneuser" vertex="1">
+          <mxGeometry height="60" width="30" x="217" y="67" as="geometry" />
+        </mxCell>
+        <mxCell id="V8Xsm6yOyh70pujdgEbl-6" parent="xRVcoeAHJEwT6_EBcB39-52" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" value="teacher" vertex="1">
+          <mxGeometry height="60" width="30" x="363" y="241" as="geometry" />
+        </mxCell>
+        <mxCell id="V8Xsm6yOyh70pujdgEbl-8" parent="xRVcoeAHJEwT6_EBcB39-52" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" value="admin" vertex="1">
+          <mxGeometry height="60" width="30" x="217" y="241" as="geometry" />
+        </mxCell>
+        <mxCell id="V8Xsm6yOyh70pujdgEbl-9" edge="1" parent="xRVcoeAHJEwT6_EBcB39-52" style="endArrow=classic;html=1;rounded=0;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="254" y="262" as="sourcePoint" />
+            <mxPoint x="359" y="143" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="V8Xsm6yOyh70pujdgEbl-11" edge="1" parent="xRVcoeAHJEwT6_EBcB39-52" style="endArrow=classic;html=1;rounded=0;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="233" y="234" as="sourcePoint" />
+            <mxPoint x="231" y="151" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="V8Xsm6yOyh70pujdgEbl-12" edge="1" parent="xRVcoeAHJEwT6_EBcB39-52" style="endArrow=classic;html=1;rounded=0;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="254" y="262" as="sourcePoint" />
+            <mxPoint x="355" y="262" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="V8Xsm6yOyh70pujdgEbl-13" parent="xRVcoeAHJEwT6_EBcB39-52" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" value="&lt;u&gt;&lt;b&gt;Actors&lt;/b&gt;&lt;/u&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="276" as="geometry" />
+        </mxCell>
+        <mxCell id="V8Xsm6yOyh70pujdgEbl-15" edge="1" parent="xRVcoeAHJEwT6_EBcB39-52" source="V8Xsm6yOyh70pujdgEbl-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;endArrow=none;endFill=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="211.1175084267893" y="271" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="V8Xsm6yOyh70pujdgEbl-14" parent="xRVcoeAHJEwT6_EBcB39-52" style="ellipse;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" value="Správa" vertex="1">
+          <mxGeometry height="44" width="94" x="39" y="249" as="geometry" />
+        </mxCell>
+        <mxCell id="V8Xsm6yOyh70pujdgEbl-18" edge="1" parent="xRVcoeAHJEwT6_EBcB39-52" source="V8Xsm6yOyh70pujdgEbl-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;endArrow=none;endFill=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="394.3130729429183" y="97" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="V8Xsm6yOyh70pujdgEbl-16" parent="xRVcoeAHJEwT6_EBcB39-52" style="ellipse;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" value="Logon validation" vertex="1">
+          <mxGeometry height="44" width="94" x="456" y="75" as="geometry" />
+        </mxCell>
+        <mxCell id="V8Xsm6yOyh70pujdgEbl-19" edge="1" parent="xRVcoeAHJEwT6_EBcB39-52" source="V8Xsm6yOyh70pujdgEbl-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;endArrow=none;endFill=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="401.0091414913054" y="271" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="V8Xsm6yOyh70pujdgEbl-17" parent="xRVcoeAHJEwT6_EBcB39-52" style="ellipse;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" value="Vyúka" vertex="1">
+          <mxGeometry height="44" width="94" x="456" y="249" as="geometry" />
+        </mxCell>
+        <mxCell id="V8Xsm6yOyh70pujdgEbl-22" parent="xRVcoeAHJEwT6_EBcB39-52" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" value="user" vertex="1">
+          <mxGeometry height="60" width="30" x="373" y="77" as="geometry" />
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-148" connectable="0" parent="1" style="group;" value="" vertex="1">
+          <mxGeometry height="666" width="1055" x="163" y="1044" as="geometry" />
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-142" parent="xRVcoeAHJEwT6_EBcB39-148" style="rounded=1;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;dashed=1;dashPattern=8 8;container=0;" value="" vertex="1">
+          <mxGeometry height="632" width="984" y="34" as="geometry" />
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-143" parent="xRVcoeAHJEwT6_EBcB39-148" style="html=1;whiteSpace=wrap;container=0;" value="" vertex="1">
+          <mxGeometry height="46" width="360" x="541" y="199" as="geometry" />
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-144" parent="xRVcoeAHJEwT6_EBcB39-148" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;container=0;" value="" vertex="1">
+          <mxGeometry height="8" width="40" x="901" y="213" as="geometry" />
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-145" parent="xRVcoeAHJEwT6_EBcB39-148" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;container=0;" value="UC2" vertex="1">
+          <mxGeometry height="20" width="40" x="901" y="213" as="geometry" />
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-99" edge="1" parent="xRVcoeAHJEwT6_EBcB39-148" source="xRVcoeAHJEwT6_EBcB39-100" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0.1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" target="xRVcoeAHJEwT6_EBcB39-102">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-100" parent="xRVcoeAHJEwT6_EBcB39-148" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;container=0;" value="User" vertex="1">
+          <mxGeometry height="40" width="20" x="73" y="231.5" as="geometry" />
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-101" edge="1" parent="xRVcoeAHJEwT6_EBcB39-148" source="xRVcoeAHJEwT6_EBcB39-102" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" target="xRVcoeAHJEwT6_EBcB39-103">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-102" parent="xRVcoeAHJEwT6_EBcB39-148" style="ellipse;whiteSpace=wrap;html=1;container=0;" value="Select filter" vertex="1">
+          <mxGeometry height="30" width="60" x="165" y="121.5" as="geometry" />
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-103" parent="xRVcoeAHJEwT6_EBcB39-148" style="ellipse;whiteSpace=wrap;html=1;container=0;" value="Search for item" vertex="1">
+          <mxGeometry height="40" width="90" x="258" y="82.5" as="geometry" />
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-104" parent="xRVcoeAHJEwT6_EBcB39-148" style="ellipse;whiteSpace=wrap;html=1;container=0;" value="Registrace kurzu" vertex="1">
+          <mxGeometry height="50" width="100" x="365" y="138.5" as="geometry" />
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-105" parent="xRVcoeAHJEwT6_EBcB39-148" style="ellipse;whiteSpace=wrap;html=1;container=0;" value="Browse items" vertex="1">
+          <mxGeometry height="50" width="60" x="215" y="175.5" as="geometry" />
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-106" parent="xRVcoeAHJEwT6_EBcB39-148" style="ellipse;whiteSpace=wrap;html=1;container=0;" value="Registrace kurzu" vertex="1">
+          <mxGeometry height="60" width="80" x="130" y="271.5" as="geometry" />
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-107" parent="xRVcoeAHJEwT6_EBcB39-148" style="ellipse;whiteSpace=wrap;html=1;container=0;" value="Výběr času kurzu" vertex="1">
+          <mxGeometry height="50" width="80" x="323" y="284.5" as="geometry" />
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-108" parent="xRVcoeAHJEwT6_EBcB39-148" style="ellipse;whiteSpace=wrap;html=1;container=0;" value="Platba kurzu" vertex="1">
+          <mxGeometry height="40" width="80" x="290" y="347.5" as="geometry" />
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-109" parent="xRVcoeAHJEwT6_EBcB39-148" style="ellipse;whiteSpace=wrap;html=1;container=0;" value="Přidání kurzu na účet&amp;nbsp;" vertex="1">
+          <mxGeometry height="60" width="70" x="167" y="410.5" as="geometry" />
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-110" parent="xRVcoeAHJEwT6_EBcB39-148" style="ellipse;whiteSpace=wrap;html=1;container=0;" value="Možnost odhlášení od kurzu" vertex="1">
+          <mxGeometry height="50" width="80" x="50" y="464.5" as="geometry" />
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-111" parent="xRVcoeAHJEwT6_EBcB39-148" style="ellipse;whiteSpace=wrap;html=1;container=0;" value="Možnost přímé komunikace s vyučujícím" vertex="1">
+          <mxGeometry height="60" width="100" x="115" y="524" as="geometry" />
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-139" edge="1" parent="xRVcoeAHJEwT6_EBcB39-148" source="xRVcoeAHJEwT6_EBcB39-113" style="rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=1;entryDx=0;entryDy=0;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" target="xRVcoeAHJEwT6_EBcB39-109">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-113" parent="xRVcoeAHJEwT6_EBcB39-148" style="ellipse;whiteSpace=wrap;html=1;container=0;" value="Připojení do hodin" vertex="1">
+          <mxGeometry height="60" width="90" x="241" y="544" as="geometry" />
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-114" edge="1" parent="xRVcoeAHJEwT6_EBcB39-148" source="xRVcoeAHJEwT6_EBcB39-115" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.917;entryY=0.711;entryDx=0;entryDy=0;entryPerimeter=0;" target="xRVcoeAHJEwT6_EBcB39-109">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-115" parent="xRVcoeAHJEwT6_EBcB39-148" style="ellipse;whiteSpace=wrap;html=1;container=0;" value="Získání přístupu k materiálům" vertex="1">
+          <mxGeometry height="60" width="90" x="318" y="470.5" as="geometry" />
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-116" edge="1" parent="xRVcoeAHJEwT6_EBcB39-148" source="xRVcoeAHJEwT6_EBcB39-100" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.038;entryY=0.356;entryDx=0;entryDy=0;entryPerimeter=0;" target="xRVcoeAHJEwT6_EBcB39-105">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-117" edge="1" parent="xRVcoeAHJEwT6_EBcB39-148" source="xRVcoeAHJEwT6_EBcB39-100" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.06;entryY=0.256;entryDx=0;entryDy=0;entryPerimeter=0;" target="xRVcoeAHJEwT6_EBcB39-106">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-118" edge="1" parent="xRVcoeAHJEwT6_EBcB39-148" source="xRVcoeAHJEwT6_EBcB39-104" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;exitX=0.418;exitY=-0.024;exitDx=0;exitDy=0;exitPerimeter=0;" target="xRVcoeAHJEwT6_EBcB39-103" value="extends">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="325" y="115.5" as="sourcePoint" />
+            <mxPoint x="245" y="115.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-119" edge="1" parent="xRVcoeAHJEwT6_EBcB39-148" source="xRVcoeAHJEwT6_EBcB39-104" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;entryX=0.927;entryY=0.289;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.229;exitY=0.984;exitDx=0;exitDy=0;exitPerimeter=0;" target="xRVcoeAHJEwT6_EBcB39-105" value="extends">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="265" y="195.0999999999999" as="sourcePoint" />
+            <mxPoint x="185" y="195.0999999999999" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-120" edge="1" parent="xRVcoeAHJEwT6_EBcB39-148" source="xRVcoeAHJEwT6_EBcB39-106" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;exitX=0.949;exitY=0.267;exitDx=0;exitDy=0;exitPerimeter=0;" target="xRVcoeAHJEwT6_EBcB39-107" value="include">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="300" y="342.5" as="sourcePoint" />
+            <mxPoint x="340" y="342.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-121" edge="1" parent="xRVcoeAHJEwT6_EBcB39-148" source="xRVcoeAHJEwT6_EBcB39-106" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.937;exitY=0.687;exitDx=0;exitDy=0;exitPerimeter=0;" target="xRVcoeAHJEwT6_EBcB39-108" value="include">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="350" y="417.5" as="sourcePoint" />
+            <mxPoint x="270" y="417.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-122" edge="1" parent="xRVcoeAHJEwT6_EBcB39-148" source="xRVcoeAHJEwT6_EBcB39-109" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;entryX=0.61;entryY=1.018;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" target="xRVcoeAHJEwT6_EBcB39-106" value="extends">
+          <mxGeometry relative="1" x="0.2406" y="-8" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="350" y="417.5" as="sourcePoint" />
+            <mxPoint x="270" y="417.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-124" edge="1" parent="xRVcoeAHJEwT6_EBcB39-148" source="xRVcoeAHJEwT6_EBcB39-111" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.347;entryY=0.941;entryDx=0;entryDy=0;entryPerimeter=0;" target="xRVcoeAHJEwT6_EBcB39-109">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-125" parent="xRVcoeAHJEwT6_EBcB39-148" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;container=0;" value="UC4" vertex="1">
+          <mxGeometry height="16" width="40" x="419" y="121.5" as="geometry" />
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-126" parent="xRVcoeAHJEwT6_EBcB39-148" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;container=0;" value="UC3" vertex="1">
+          <mxGeometry height="16" width="40" x="275" y="61.5" as="geometry" />
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-127" parent="xRVcoeAHJEwT6_EBcB39-148" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;container=0;" value="UC1" vertex="1">
+          <mxGeometry height="16" width="40" x="168" y="94.5" as="geometry" />
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-128" parent="xRVcoeAHJEwT6_EBcB39-148" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;container=0;" value="UC2" vertex="1">
+          <mxGeometry height="16" width="40" x="218" y="155.5" as="geometry" />
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-129" parent="xRVcoeAHJEwT6_EBcB39-148" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;container=0;" value="UC4" vertex="1">
+          <mxGeometry height="16" width="40" x="168" y="261.5" as="geometry" />
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-130" parent="xRVcoeAHJEwT6_EBcB39-148" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;container=0;" value="UC5" vertex="1">
+          <mxGeometry height="16" width="40" x="379" y="271.5" as="geometry" />
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-131" parent="xRVcoeAHJEwT6_EBcB39-148" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;container=0;" value="UC6" vertex="1">
+          <mxGeometry height="16" width="40" x="365" y="347.5" as="geometry" />
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-132" parent="xRVcoeAHJEwT6_EBcB39-148" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;container=0;" value="UC9" vertex="1">
+          <mxGeometry height="16" width="40" x="356" y="459" as="geometry" />
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-133" parent="xRVcoeAHJEwT6_EBcB39-148" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;container=0;" value="UC10" vertex="1">
+          <mxGeometry height="16" width="40" x="283" y="528" as="geometry" />
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-134" parent="xRVcoeAHJEwT6_EBcB39-148" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;container=0;" value="UC8" vertex="1">
+          <mxGeometry height="16" width="40" x="182" y="587" as="geometry" />
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-135" parent="xRVcoeAHJEwT6_EBcB39-148" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;container=0;" value="UC11" vertex="1">
+          <mxGeometry height="16" width="40" x="63" y="464.5" as="geometry" />
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-136" parent="xRVcoeAHJEwT6_EBcB39-148" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;container=0;" value="UC7" vertex="1">
+          <mxGeometry height="16" width="40" x="153" y="399.5" as="geometry" />
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-140" edge="1" parent="xRVcoeAHJEwT6_EBcB39-148" source="xRVcoeAHJEwT6_EBcB39-110" style="rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" target="xRVcoeAHJEwT6_EBcB39-109">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-141" parent="xRVcoeAHJEwT6_EBcB39-148" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;container=0;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;span style=&quot;font-family: Helvetica; font-size: 12px; text-wrap-mode: nowrap;&quot;&gt;UC1&lt;/span&gt;&lt;div style=&quot;font-family: Helvetica; font-size: 12px; text-wrap-mode: nowrap;&quot;&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;1) Zákazník vybere flitr vyhledávání&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-family: Helvetica; font-size: 12px; text-wrap-mode: nowrap;&quot;&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;2) Systém zapne filtr pro vyhledávání&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-family: Helvetica; font-size: 12px; text-wrap-mode: nowrap;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;font-family: Helvetica; font-size: 12px; text-wrap-mode: nowrap;&quot;&gt;UC3&lt;/div&gt;&lt;div style=&quot;font-family: Helvetica; font-size: 12px; text-wrap-mode: nowrap;&quot;&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;1) Uživatel zadá text do vyhledávacího pole&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-family: Helvetica; font-size: 12px; text-wrap-mode: nowrap;&quot;&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;2) Systém nabídne nápovědu v textové formě k napsanému textu&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-family: Helvetica; font-size: 12px; text-wrap-mode: nowrap;&quot;&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;3) Zákazník vyhledá věc&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-family: Helvetica; font-size: 12px; text-wrap-mode: nowrap;&quot;&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;4) Systém vytvoří list vytvořených kurzů&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-family: Helvetica; font-size: 12px; text-wrap-mode: nowrap;&quot;&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;5) Uživatel si vybere kurz&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-family: Helvetica; font-size: 12px; text-wrap-mode: nowrap;&quot;&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;6) Systém nabídne detailní popis kurzu&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-family: Helvetica; font-size: 12px; text-wrap-mode: nowrap;&quot;&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;7) UC4 - Registrace kurzu&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-family: Helvetica; font-size: 12px; text-wrap-mode: nowrap;&quot;&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-family: Helvetica; font-size: 12px; text-wrap-mode: nowrap;&quot;&gt;UC4&lt;/div&gt;&lt;div style=&quot;font-family: Helvetica; font-size: 12px; text-wrap-mode: nowrap;&quot;&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;1) Uživatel klikne na tlačítko registrace&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-family: Helvetica; font-size: 12px; text-wrap-mode: nowrap;&quot;&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;2) Systém mu zobrazí registrační formulář&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-family: Helvetica; font-size: 12px; text-wrap-mode: nowrap;&quot;&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;3) Uživatel vyplní info viz: UC5, UC6&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-family: Helvetica; font-size: 12px; text-wrap-mode: nowrap;&quot;&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;4) Uživatel odešle formulář&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-family: Helvetica; font-size: 12px; text-wrap-mode: nowrap;&quot;&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-family: Helvetica; font-size: 12px; text-wrap-mode: nowrap;&quot;&gt;UC5&lt;/div&gt;&lt;div style=&quot;font-family: Helvetica; font-size: 12px; text-wrap-mode: nowrap;&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;1) Uživateli se zobrazí volné termíny&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-family: Helvetica; font-size: 12px; text-wrap-mode: nowrap;&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;2) Uživatel si vybere volný termín&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-family: Helvetica; font-size: 12px; text-wrap-mode: nowrap;&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-family: Helvetica; font-size: 12px; text-wrap-mode: nowrap;&quot;&gt;UC6&lt;/div&gt;&lt;div style=&quot;font-family: Helvetica; font-size: 12px; text-wrap-mode: nowrap;&quot;&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;1) Systém odkáže na externí aplikaci&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-family: Helvetica; font-size: 12px; text-wrap-mode: nowrap;&quot;&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;2) Systém ověří danou platbu&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-family: Helvetica; font-size: 12px; text-wrap-mode: nowrap;&quot;&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-family: Helvetica; font-size: 12px; text-wrap-mode: nowrap;&quot;&gt;UC10&lt;/div&gt;&lt;div style=&quot;font-family: Helvetica; font-size: 12px; text-wrap-mode: nowrap;&quot;&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;1) Systém odešle uživateli oznámení, že je hodina&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-family: Helvetica; font-size: 12px; text-wrap-mode: nowrap;&quot;&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;2) Uživatel dostane možnost se zapojit do hodiny&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-family: Helvetica; font-size: 12px; text-wrap-mode: nowrap;&quot;&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;3) Systém dá uživateli okno s možností nastavení periferií&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-family: Helvetica; font-size: 12px; text-wrap-mode: nowrap;&quot;&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;4) Po připojení se uživatel může s hodinou interagovat&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-family: Helvetica; font-size: 12px; text-wrap-mode: nowrap;&quot;&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-family: Helvetica; font-size: 12px; text-wrap-mode: nowrap;&quot;&gt;UC11&lt;/div&gt;&lt;div style=&quot;font-family: Helvetica; font-size: 12px; text-wrap-mode: nowrap;&quot;&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;1) Systém umožní uživateli odhlášení a refundaci kurzu&lt;/span&gt;&lt;/div&gt;&lt;/h1&gt;" vertex="1">
+          <mxGeometry height="547" width="385" x="541" y="94" as="geometry" />
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-146" parent="xRVcoeAHJEwT6_EBcB39-148" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;container=0;" value="&lt;u&gt;&lt;b&gt;Student&lt;/b&gt;&lt;/u&gt;" vertex="1">
+          <mxGeometry height="30" width="178" x="438.5" as="geometry" />
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-212" connectable="0" parent="1" style="group;" value="" vertex="1">
+          <mxGeometry height="319" width="399" x="703" y="258" as="geometry" />
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-167" parent="xRVcoeAHJEwT6_EBcB39-212" style="rounded=1;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;dashed=1;dashPattern=8 8;" value="" vertex="1">
+          <mxGeometry height="289" width="399" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-149" edge="1" parent="xRVcoeAHJEwT6_EBcB39-212" source="xRVcoeAHJEwT6_EBcB39-150" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" target="xRVcoeAHJEwT6_EBcB39-163">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-150" parent="xRVcoeAHJEwT6_EBcB39-212" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" value="Nonuser" vertex="1">
+          <mxGeometry height="40" width="20" x="41" y="134" as="geometry" />
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-151" edge="1" parent="xRVcoeAHJEwT6_EBcB39-212" source="xRVcoeAHJEwT6_EBcB39-150" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" target="xRVcoeAHJEwT6_EBcB39-153">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="67" y="156" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-152" edge="1" parent="xRVcoeAHJEwT6_EBcB39-212" source="xRVcoeAHJEwT6_EBcB39-153" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" target="xRVcoeAHJEwT6_EBcB39-154">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-153" parent="xRVcoeAHJEwT6_EBcB39-212" style="ellipse;whiteSpace=wrap;html=1;" value="Select filter" vertex="1">
+          <mxGeometry height="30" width="60" x="92" y="112" as="geometry" />
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-154" parent="xRVcoeAHJEwT6_EBcB39-212" style="ellipse;whiteSpace=wrap;html=1;" value="Search for item" vertex="1">
+          <mxGeometry height="40" width="90" x="162" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-155" parent="xRVcoeAHJEwT6_EBcB39-212" style="ellipse;whiteSpace=wrap;html=1;" value="Registrace uživatele" vertex="1">
+          <mxGeometry height="50" width="100" x="266" y="124" as="geometry" />
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-156" parent="xRVcoeAHJEwT6_EBcB39-212" style="ellipse;whiteSpace=wrap;html=1;" value="Browse items" vertex="1">
+          <mxGeometry height="50" width="60" x="162" y="178" as="geometry" />
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-157" edge="1" parent="xRVcoeAHJEwT6_EBcB39-212" source="xRVcoeAHJEwT6_EBcB39-150" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.038;entryY=0.356;entryDx=0;entryDy=0;entryPerimeter=0;" target="xRVcoeAHJEwT6_EBcB39-156">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="72" y="165" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-158" edge="1" parent="xRVcoeAHJEwT6_EBcB39-212" source="xRVcoeAHJEwT6_EBcB39-155" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;exitX=0;exitY=0;exitDx=0;exitDy=0;" target="xRVcoeAHJEwT6_EBcB39-154" value="extends">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="292" y="92" as="sourcePoint" />
+            <mxPoint x="212" y="92" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-159" edge="1" parent="xRVcoeAHJEwT6_EBcB39-212" source="xRVcoeAHJEwT6_EBcB39-155" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;entryX=0.927;entryY=0.289;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.056;exitY=0.796;exitDx=0;exitDy=0;exitPerimeter=0;" target="xRVcoeAHJEwT6_EBcB39-156" value="extends">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="232" y="171.5999999999999" as="sourcePoint" />
+            <mxPoint x="152" y="171.5999999999999" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-160" parent="xRVcoeAHJEwT6_EBcB39-212" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" value="UC4" vertex="1">
+          <mxGeometry height="16" width="40" x="300" y="105" as="geometry" />
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-161" parent="xRVcoeAHJEwT6_EBcB39-212" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" value="UC1" vertex="1">
+          <mxGeometry height="16" width="40" x="81" y="94" as="geometry" />
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-162" parent="xRVcoeAHJEwT6_EBcB39-212" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" value="UC2" vertex="1">
+          <mxGeometry height="16" width="40" x="112" y="146" as="geometry" />
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-163" parent="xRVcoeAHJEwT6_EBcB39-212" style="ellipse;whiteSpace=wrap;html=1;" value="Registrace uživatele" vertex="1">
+          <mxGeometry height="50" width="80" x="41" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-164" parent="xRVcoeAHJEwT6_EBcB39-212" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" value="UC3" vertex="1">
+          <mxGeometry height="16" width="40" x="187" y="46" as="geometry" />
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-165" parent="xRVcoeAHJEwT6_EBcB39-212" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" value="UC4" vertex="1">
+          <mxGeometry height="16" width="40" x="92" y="244" as="geometry" />
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-166" parent="xRVcoeAHJEwT6_EBcB39-212" style="text;whiteSpace=wrap;html=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;align=left;" value="&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212));&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 700; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;UC1 -&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;forced-color-adjust: none; color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; font-weight: normal;&quot;&gt;viz User&lt;/span&gt;&lt;/span&gt;&lt;div style=&quot;forced-color-adjust: none; color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 700; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212));&quot;&gt;UC2 -&lt;span&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;forced-color-adjust: none; font-weight: normal;&quot;&gt;viz User&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;forced-color-adjust: none; color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 700; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; background-color: rgb(236, 236, 236);&quot;&gt;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212));&quot;&gt;UC3 -&lt;span&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;forced-color-adjust: none; font-weight: normal;&quot;&gt;viz User&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;forced-color-adjust: none; color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 700; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; background-color: rgb(236, 236, 236);&quot;&gt;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212));&quot;&gt;UC4 -&amp;nbsp;&lt;span style=&quot;forced-color-adjust: none; font-weight: normal;&quot;&gt;viz User&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="106" x="262.99716837565086" y="227.99509026421447" as="geometry" />
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-53" parent="xRVcoeAHJEwT6_EBcB39-212" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" value="&lt;u&gt;&lt;b&gt;Nonuser&lt;/b&gt;&lt;/u&gt;" vertex="1">
+          <mxGeometry height="30" width="178" x="118" as="geometry" />
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-249" connectable="0" parent="1" style="group;" value="" vertex="1">
+          <mxGeometry height="425" width="982" x="56" y="598" as="geometry" />
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-247" parent="xRVcoeAHJEwT6_EBcB39-249" style="rounded=1;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;dashed=1;dashPattern=8 8;" value="" vertex="1">
+          <mxGeometry height="396.0227272727273" width="982" y="28.977272727272727" as="geometry" />
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-215" edge="1" parent="xRVcoeAHJEwT6_EBcB39-249" source="xRVcoeAHJEwT6_EBcB39-218" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" target="xRVcoeAHJEwT6_EBcB39-222">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-216" edge="1" parent="xRVcoeAHJEwT6_EBcB39-249" source="xRVcoeAHJEwT6_EBcB39-218" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" target="xRVcoeAHJEwT6_EBcB39-224">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-217" edge="1" parent="xRVcoeAHJEwT6_EBcB39-249" source="xRVcoeAHJEwT6_EBcB39-218" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;" target="xRVcoeAHJEwT6_EBcB39-243">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-218" parent="xRVcoeAHJEwT6_EBcB39-249" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" value="Admin" vertex="1">
+          <mxGeometry height="32.196969696969695" width="20" x="121" y="188.35227272727272" as="geometry" />
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-219" parent="xRVcoeAHJEwT6_EBcB39-249" style="ellipse;whiteSpace=wrap;html=1;" value="Přístup k uživatelům" vertex="1">
+          <mxGeometry height="48.29545454545454" width="100" x="170" y="86.12689393939392" as="geometry" />
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-220" parent="xRVcoeAHJEwT6_EBcB39-249" style="ellipse;whiteSpace=wrap;html=1;" value="Deaktivace / blokace účtů" vertex="1">
+          <mxGeometry height="40.24621212121212" width="100" x="311.6" y="59.564393939393945" as="geometry" />
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-221" parent="xRVcoeAHJEwT6_EBcB39-249" style="ellipse;whiteSpace=wrap;html=1;" value="Obnovení účtů" vertex="1">
+          <mxGeometry height="48.29545454545454" width="90" x="312" y="124.76325757575759" as="geometry" />
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-222" parent="xRVcoeAHJEwT6_EBcB39-249" style="ellipse;whiteSpace=wrap;html=1;" value="Rozhodování o vývoji" vertex="1">
+          <mxGeometry height="48.29545454545454" width="90" x="184" y="178.6931818181818" as="geometry" />
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-223" parent="xRVcoeAHJEwT6_EBcB39-249" style="ellipse;whiteSpace=wrap;html=1;" value="Vylepšení softwaru" vertex="1">
+          <mxGeometry height="40.24621212121212" width="100" x="322" y="189.15719696969697" as="geometry" />
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-224" parent="xRVcoeAHJEwT6_EBcB39-249" style="ellipse;whiteSpace=wrap;html=1;" value="Zařizování propagace" vertex="1">
+          <mxGeometry height="40.24621212121212" width="80" x="172" y="239.86742424242422" as="geometry" />
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-225" parent="xRVcoeAHJEwT6_EBcB39-249" style="ellipse;whiteSpace=wrap;html=1;" value="Přístup ke kurzům" vertex="1">
+          <mxGeometry height="40.24621212121212" width="100" x="91" y="315.530303030303" as="geometry" />
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-226" parent="xRVcoeAHJEwT6_EBcB39-249" style="ellipse;whiteSpace=wrap;html=1;" value="Smazání kurzu" vertex="1">
+          <mxGeometry height="40.24621212121212" width="90" x="211" y="363.82575757575756" as="geometry" />
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-227" parent="xRVcoeAHJEwT6_EBcB39-249" style="ellipse;whiteSpace=wrap;html=1;" value="Editace" vertex="1">
+          <mxGeometry height="40.24621212121212" width="80" x="278" y="301.84659090909093" as="geometry" />
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-228" edge="1" parent="xRVcoeAHJEwT6_EBcB39-249" source="xRVcoeAHJEwT6_EBcB39-218" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.015;entryY=0.634;entryDx=0;entryDy=0;entryPerimeter=0;" target="xRVcoeAHJEwT6_EBcB39-219">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-229" edge="1" parent="xRVcoeAHJEwT6_EBcB39-249" source="xRVcoeAHJEwT6_EBcB39-218" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.243;entryY=0.053;entryDx=0;entryDy=0;entryPerimeter=0;" target="xRVcoeAHJEwT6_EBcB39-225">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-230" edge="1" parent="xRVcoeAHJEwT6_EBcB39-249" source="xRVcoeAHJEwT6_EBcB39-220" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;entryX=0.759;entryY=0.042;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.022;exitY=0.304;exitDx=0;exitDy=0;exitPerimeter=0;" target="xRVcoeAHJEwT6_EBcB39-219" value="extends">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="460" y="108.10937499999996" as="sourcePoint" />
+            <mxPoint x="380" y="108.10937499999996" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-231" edge="1" parent="xRVcoeAHJEwT6_EBcB39-249" source="xRVcoeAHJEwT6_EBcB39-221" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;exitX=0.032;exitY=0.406;exitDx=0;exitDy=0;exitPerimeter=0;" target="xRVcoeAHJEwT6_EBcB39-219" value="extends">
+          <mxGeometry relative="1" x="-0.8734" y="-3" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="531.5999999999999" y="115.9090909090909" as="sourcePoint" />
+            <mxPoint x="305.0000000000001" y="102.3863636363635" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-232" edge="1" parent="xRVcoeAHJEwT6_EBcB39-249" source="xRVcoeAHJEwT6_EBcB39-227" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;entryX=0.925;entryY=0.277;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.097;exitY=0.298;exitDx=0;exitDy=0;exitPerimeter=0;" target="xRVcoeAHJEwT6_EBcB39-225" value="extends">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="291" y="299.43181818181813" as="sourcePoint" />
+            <mxPoint x="211" y="299.43181818181813" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-233" edge="1" parent="xRVcoeAHJEwT6_EBcB39-249" source="xRVcoeAHJEwT6_EBcB39-223" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" target="xRVcoeAHJEwT6_EBcB39-222" value="extends">
+          <mxGeometry relative="1" x="-0.8969" y="12" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="324" y="273.67424242424244" as="sourcePoint" />
+            <mxPoint x="244" y="273.67424242424244" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-234" edge="1" parent="xRVcoeAHJEwT6_EBcB39-249" source="xRVcoeAHJEwT6_EBcB39-226" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;entryX=0.987;entryY=0.413;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.028;exitY=0.314;exitDx=0;exitDy=0;exitPerimeter=0;" target="xRVcoeAHJEwT6_EBcB39-225" value="extends">
+          <mxGeometry relative="1" x="-0.6961" y="18" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="291" y="299.43181818181813" as="sourcePoint" />
+            <mxPoint x="211" y="299.43181818181813" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-235" parent="xRVcoeAHJEwT6_EBcB39-249" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" value="UC2" vertex="1">
+          <mxGeometry height="16.098484848484848" width="30" x="181" y="74.85795454545453" as="geometry" />
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-236" parent="xRVcoeAHJEwT6_EBcB39-249" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" value="UC3" vertex="1">
+          <mxGeometry height="16.098484848484848" width="30" x="377" y="116.71401515151513" as="geometry" />
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-237" parent="xRVcoeAHJEwT6_EBcB39-249" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" value="UC4" vertex="1">
+          <mxGeometry height="16.098484848484848" width="30" x="208" y="162.59469696969697" as="geometry" />
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-238" parent="xRVcoeAHJEwT6_EBcB39-249" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" value="UC5" vertex="1">
+          <mxGeometry height="16.098484848484848" width="30" x="399" y="181.1079545454545" as="geometry" />
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-239" parent="xRVcoeAHJEwT6_EBcB39-249" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" value="UC7" vertex="1">
+          <mxGeometry height="16.098484848484848" width="30" x="252" y="244.6969696969697" as="geometry" />
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-240" parent="xRVcoeAHJEwT6_EBcB39-249" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" value="UC8" vertex="1">
+          <mxGeometry height="16.098484848484848" width="30" x="142" y="304.2613636363636" as="geometry" />
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-241" parent="xRVcoeAHJEwT6_EBcB39-249" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" value="UC9" vertex="1">
+          <mxGeometry height="16.098484848484848" width="30" x="330" y="291.38257575757575" as="geometry" />
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-242" parent="xRVcoeAHJEwT6_EBcB39-249" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" value="UC10" vertex="1">
+          <mxGeometry height="16.098484848484848" width="30" x="265.5" y="347.72727272727275" as="geometry" />
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-243" parent="xRVcoeAHJEwT6_EBcB39-249" style="ellipse;whiteSpace=wrap;html=1;" value="Zálohy" vertex="1">
+          <mxGeometry height="32.196969696969695" width="50" x="22" y="160.98484848484847" as="geometry" />
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-244" parent="xRVcoeAHJEwT6_EBcB39-249" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" value="UC6" vertex="1">
+          <mxGeometry height="16.098484848484848" width="30" x="28" y="144.88636363636365" as="geometry" />
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-245" parent="xRVcoeAHJEwT6_EBcB39-249" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" value="UC2" vertex="1">
+          <mxGeometry height="16.098484848484848" width="30" x="393" y="52.32007575757576" as="geometry" />
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-246" parent="xRVcoeAHJEwT6_EBcB39-249" style="text;whiteSpace=wrap;html=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" value="&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212));&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 700; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;A1 -&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;forced-color-adjust: none; color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; font-weight: normal;&quot;&gt;Obnovení dříve zablokovaného účtu&lt;/span&gt;&lt;/span&gt;&lt;div style=&quot;forced-color-adjust: none; color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 700; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;span style=&quot;forced-color-adjust: none; font-weight: normal; background-color: light-dark(#ffffff, var(--ge-dark-color, #121212));&quot;&gt;V kroku 4 administrátor vybere u již deaktivovaného uživatele možnost &quot;Obnovení účtu&quot;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;forced-color-adjust: none; color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 700; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;span style=&quot;forced-color-adjust: none; font-weight: normal; background-color: light-dark(#ffffff, var(--ge-dark-color, #121212));&quot;&gt;Systém se zeptá na potvrzení akce&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;forced-color-adjust: none; color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 700; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;span style=&quot;forced-color-adjust: none; font-weight: normal; background-color: light-dark(#ffffff, var(--ge-dark-color, #121212));&quot;&gt;Po potvrzení systém uživateli opětovně přidělí práva, zaktivní jeho profil a zašle mu&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;forced-color-adjust: none; color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 700; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;span style=&quot;forced-color-adjust: none; font-weight: normal; background-color: light-dark(#ffffff, var(--ge-dark-color, #121212));&quot;&gt;email, že jeho účet je opět plně funkční&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;forced-color-adjust: none; color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 700; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;span style=&quot;forced-color-adjust: none; font-weight: normal; background-color: light-dark(#ffffff, var(--ge-dark-color, #121212));&quot;&gt;&lt;br style=&quot;forced-color-adjust: none;&quot;&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;forced-color-adjust: none; color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 700; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212));&quot;&gt;A2 -&lt;span&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;forced-color-adjust: none; font-weight: 400;&quot;&gt;Provádění systémových záloh (Zálohy)&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;forced-color-adjust: none; color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 700; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;span style=&quot;forced-color-adjust: none; font-weight: 400; background-color: light-dark(#ffffff, var(--ge-dark-color, #121212));&quot;&gt;V kroku 2 (na Dashboardu) administrátor nevyhledává uživatele, ale přejde do sekce&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;forced-color-adjust: none; color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 700; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;span style=&quot;forced-color-adjust: none; font-weight: 400; background-color: light-dark(#ffffff, var(--ge-dark-color, #121212));&quot;&gt;&quot;Údržba a zálohy&quot;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;forced-color-adjust: none; color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 700; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;span style=&quot;forced-color-adjust: none; font-weight: 400; background-color: light-dark(#ffffff, var(--ge-dark-color, #121212));&quot;&gt;Administrátor klikne na &quot;Vytvořit novou zálohu&quot;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;forced-color-adjust: none; color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 700; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;span style=&quot;forced-color-adjust: none; font-weight: 400; background-color: light-dark(#ffffff, var(--ge-dark-color, #121212));&quot;&gt;Systém zahájí stahování / balení databáze (kurzy, účty, zprávy)&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;forced-color-adjust: none; color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 700; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;span style=&quot;forced-color-adjust: none; font-weight: 400; background-color: light-dark(#ffffff, var(--ge-dark-color, #121212));&quot;&gt;Po dokončení systém informuje administrátora o úspěšném vytvoření zálohy a zapíše&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;forced-color-adjust: none; color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 700; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;span style=&quot;forced-color-adjust: none; font-weight: 400; background-color: light-dark(#ffffff, var(--ge-dark-color, #121212));&quot;&gt;časový údaj do logu&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;forced-color-adjust: none; color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 700; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;span style=&quot;forced-color-adjust: none; font-weight: 400; background-color: light-dark(#ffffff, var(--ge-dark-color, #121212));&quot;&gt;&lt;br style=&quot;forced-color-adjust: none;&quot;&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;forced-color-adjust: none; color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 700; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212));&quot;&gt;A3 -&lt;span&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;forced-color-adjust: none; font-weight: normal;&quot;&gt;Smazání nebo úprava nevhodného kurzu&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;forced-color-adjust: none; color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 700; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;span style=&quot;forced-color-adjust: none; font-weight: normal; background-color: light-dark(#ffffff, var(--ge-dark-color, #121212));&quot;&gt;Pokud problém není v samotném účtu, ale jen ve vytvořeném kurzu, může&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;forced-color-adjust: none; color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 700; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;span style=&quot;forced-color-adjust: none; font-weight: normal; background-color: light-dark(#ffffff, var(--ge-dark-color, #121212));&quot;&gt;administrátor v kroku 4 místo uživatele vybrat přímo konkrétní kurz&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;forced-color-adjust: none; color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 700; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;span style=&quot;forced-color-adjust: none; font-weight: normal; background-color: light-dark(#ffffff, var(--ge-dark-color, #121212));&quot;&gt;Administrátor kurz upraví (Editace) nebo jej úplně smaže, případně zruší z veřejného&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;forced-color-adjust: none; color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 700; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;span style=&quot;forced-color-adjust: none; font-weight: normal; background-color: light-dark(#ffffff, var(--ge-dark-color, #121212));&quot;&gt;výpisu&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="296.66501103752756" width="492" x="483" y="59.105960264900666" as="geometry" />
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-248" parent="xRVcoeAHJEwT6_EBcB39-249" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;container=0;" value="&lt;u&gt;&lt;b&gt;Admin&lt;/b&gt;&lt;/u&gt;" vertex="1">
+          <mxGeometry height="24.14772727272727" width="178" x="365" as="geometry" />
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-252" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontStyle=1;fontSize=16;fontColor=#000000;" value="TŘÍDNÍ DIAGRAM - FULL MODEL (NÁVRH)" vertex="1">
+          <mxGeometry height="30" width="1210" x="1512" y="-497" as="geometry" />
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-253" parent="1" style="text;html=1;strokeColor=#000000;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;overflow=hidden;rotatable=0;fontSize=11;fontStyle=1;fontColor=#000000;" value="ČLEN 1: ADMIN CLASS (Admin)" vertex="1">
+          <mxGeometry height="230" width="370" x="1512" y="-447" as="geometry" />
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-254" parent="1" style="text;html=1;strokeColor=#000000;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;overflow=hidden;rotatable=0;fontSize=11;fontStyle=1;fontColor=#000000;" value="ČLEN 2: USER CLASS (User)" vertex="1">
+          <mxGeometry height="230" width="420" x="1902" y="-447" as="geometry" />
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-255" parent="1" style="text;html=1;strokeColor=#000000;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;overflow=hidden;rotatable=0;fontSize=11;fontStyle=1;fontColor=#000000;" value="ČLEN 3: COURSE CLASS (Course)" vertex="1">
+          <mxGeometry height="280" width="370" x="1512" y="-197" as="geometry" />
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-256" parent="1" style="text;html=1;strokeColor=#000000;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;overflow=hidden;rotatable=0;fontSize=11;fontStyle=1;fontColor=#000000;" value="ČLEN 4: BACKUP CLASS (Backup) &amp; SYSTEM LOG" vertex="1">
+          <mxGeometry height="280" width="420" x="1902" y="-197" as="geometry" />
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-257" parent="1" style="text;html=1;strokeColor=#000000;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;overflow=hidden;rotatable=0;fontSize=11;fontStyle=1;fontColor=#000000;" value="ČLEN 5: TEACHER CLASS (Teacher)" vertex="1">
+          <mxGeometry height="230" width="380" x="2342" y="-447" as="geometry" />
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-258" parent="1" style="text;html=1;strokeColor=#000000;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;overflow=hidden;rotatable=0;fontSize=11;fontStyle=1;fontColor=#000000;" value="ČLEN 6: LESSON CLASS (Lesson)" vertex="1">
+          <mxGeometry height="280" width="380" x="2342" y="-197" as="geometry" />
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-259" parent="1" style="text;html=1;strokeColor=#000000;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;overflow=hidden;rotatable=0;fontSize=11;fontStyle=1;fontColor=#000000;" value="ČLEN 7: ENROLLMENT CLASS (Enrollment)" vertex="1">
+          <mxGeometry height="230" width="370" x="1512" y="103" as="geometry" />
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-260" parent="1" style="text;html=1;strokeColor=#000000;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;overflow=hidden;rotatable=0;fontSize=11;fontStyle=1;fontColor=#000000;" value="ČLEN 8: PAYMENT CLASS (Payment)" vertex="1">
+          <mxGeometry height="230" width="420" x="1902" y="103" as="geometry" />
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-261" parent="1" style="text;html=1;strokeColor=#000000;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;overflow=hidden;rotatable=0;fontSize=11;fontStyle=1;fontColor=#000000;" value="ČLEN 9: MESSAGE CLASS (Message)" vertex="1">
+          <mxGeometry height="230" width="380" x="2342" y="103" as="geometry" />
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-262" parent="1" style="text;html=1;strokeColor=#000000;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;overflow=hidden;rotatable=0;fontSize=11;fontStyle=1;fontColor=#000000;" value="ČLEN 10: STUDY MATERIAL CLASS (StudyMaterial)" vertex="1">
+          <mxGeometry height="210" width="430" x="1512" y="353" as="geometry" />
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-263" parent="1" style="swimlane;startSize=25;fontStyle=1;fontSize=11;strokeColor=#000000;fillColor=#ffffff;" value="Admin" vertex="1">
+          <mxGeometry height="150" width="250" x="1602" y="-417" as="geometry" />
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-264" parent="xRVcoeAHJEwT6_EBcB39-263" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=6;fontSize=10;" value="+ adminId: int&#xa;+ name: string&#xa;+ email: string" vertex="1">
+          <mxGeometry height="55" width="250" y="25" as="geometry" />
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-265" parent="xRVcoeAHJEwT6_EBcB39-263" style="line;strokeColor=#000000;fillColor=none;" value="" vertex="1">
+          <mxGeometry height="10" width="250" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-266" parent="xRVcoeAHJEwT6_EBcB39-263" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=6;fontSize=10;" value="+ accessUsers(): void&#xa;+ decideOnDevelopment(): void&#xa;+ accessCourses(): void&#xa;+ arrangePromotion(): void" vertex="1">
+          <mxGeometry height="70" width="250" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-267" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=9;fontStyle=2;" value="Zodpovědnost:&#xa;Hlavní správa" vertex="1">
+          <mxGeometry height="40" width="52" x="1532" y="-352" as="geometry" />
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-268" parent="1" style="swimlane;startSize=35;fontStyle=1;fontSize=10;strokeColor=#000000;fillColor=#ffffff;" value="&lt;&lt;enumeration&gt;&gt;&#xa;UserStatus" vertex="1">
+          <mxGeometry height="80" width="150" x="1907" y="-417" as="geometry" />
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-269" parent="xRVcoeAHJEwT6_EBcB39-268" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=6;fontSize=10;" value="Active&#xa;Blocked&#xa;Deactivated" vertex="1">
+          <mxGeometry height="55" width="150" y="35" as="geometry" />
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-270" parent="1" style="swimlane;startSize=25;fontStyle=1;fontSize=11;strokeColor=#000000;fillColor=#ffffff;" value="User" vertex="1">
+          <mxGeometry height="140" width="230" x="2072" y="-417" as="geometry" />
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-271" parent="xRVcoeAHJEwT6_EBcB39-270" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=6;fontSize=10;" value="+ userId: int&#xa;+ email: string&#xa;+ name: string&#xa;+ status: UserStatus" vertex="1">
+          <mxGeometry height="65" width="230" y="25" as="geometry" />
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-272" parent="xRVcoeAHJEwT6_EBcB39-270" style="line;strokeColor=#000000;fillColor=none;" value="" vertex="1">
+          <mxGeometry height="10" width="230" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-273" parent="xRVcoeAHJEwT6_EBcB39-270" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=6;fontSize=10;" value="+ changeStatus(newStatus: UserStatus): void&#xa;+ restoreAccount(): void" vertex="1">
+          <mxGeometry height="60" width="230" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-274" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;fontSize=9;fontStyle=2;" value="Zodpovědnost:&#xa;Správa účtů&#xa;(UC2, UC3)" vertex="1">
+          <mxGeometry height="45" width="55" x="2642" y="-399.5" as="geometry" />
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-275" parent="1" style="swimlane;startSize=25;fontStyle=1;fontSize=11;strokeColor=#000000;fillColor=#ffffff;" value="Course" vertex="1">
+          <mxGeometry height="210" width="250" x="1602" y="-162" as="geometry" />
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-276" parent="xRVcoeAHJEwT6_EBcB39-275" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=6;fontSize=10;" value="+ courseId: int&#xa;+ name: string&#xa;+ description: string&#xa;+ isPublic: bool&#xa;+ price: float" vertex="1">
+          <mxGeometry height="80" width="250" y="25" as="geometry" />
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-277" parent="xRVcoeAHJEwT6_EBcB39-275" style="line;strokeColor=#000000;fillColor=none;" value="" vertex="1">
+          <mxGeometry height="10" width="250" y="105" as="geometry" />
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-278" parent="xRVcoeAHJEwT6_EBcB39-275" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=6;fontSize=10;" value="+ edit(newName: string, newDescription: string): void&#xa;+ delete(): void&#xa;+ removeFromPublicListing(): void&#xa;+ publish(): void" vertex="1">
+          <mxGeometry height="95" width="250" y="115" as="geometry" />
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-279" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=9;fontStyle=2;" value="Zodpovědnost:&#xa;Správa kurzů&#xa;(UC8, UC9, UC10)" vertex="1">
+          <mxGeometry height="50" width="52" x="1532" y="-117" as="geometry" />
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-280" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=9;fontStyle=2;" value="(A3 Edit)&#xa;(UC10 Delete)" vertex="1">
+          <mxGeometry height="35" width="65" x="1532" y="-17" as="geometry" />
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-281" parent="1" style="swimlane;startSize=25;fontStyle=1;fontSize=11;strokeColor=#000000;fillColor=#ffffff;" value="Backup" vertex="1">
+          <mxGeometry height="140" width="190" x="1912" y="-162" as="geometry" />
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-282" parent="xRVcoeAHJEwT6_EBcB39-281" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=6;fontSize=10;" value="+ dateCreated: DateTime&#xa;+ backupContent: string" vertex="1">
+          <mxGeometry height="45" width="190" y="25" as="geometry" />
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-283" parent="xRVcoeAHJEwT6_EBcB39-281" style="line;strokeColor=#000000;fillColor=none;" value="" vertex="1">
+          <mxGeometry height="10" width="190" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-284" parent="xRVcoeAHJEwT6_EBcB39-281" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=6;fontSize=10;" value="+ createNewBackup(): void&#xa;+ restoreFromBackup(): void" vertex="1">
+          <mxGeometry height="50" width="190" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-285" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=9;fontStyle=2;" value="(A2 Create)&#xa;(UC6 Backups)" vertex="1">
+          <mxGeometry height="35" width="90" x="1967" y="-17" as="geometry" />
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-286" parent="1" style="swimlane;startSize=25;fontStyle=1;fontSize=11;strokeColor=#000000;fillColor=#ffffff;" value="SystemLog" vertex="1">
+          <mxGeometry height="140" width="190" x="2117" y="-162" as="geometry" />
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-287" parent="xRVcoeAHJEwT6_EBcB39-286" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=6;fontSize=10;" value="+ logId: int&#xa;+ timestamp: DateTime&#xa;+ message: string" vertex="1">
+          <mxGeometry height="55" width="190" y="25" as="geometry" />
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-288" parent="xRVcoeAHJEwT6_EBcB39-286" style="line;strokeColor=#000000;fillColor=none;" value="" vertex="1">
+          <mxGeometry height="10" width="190" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-289" parent="xRVcoeAHJEwT6_EBcB39-286" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=6;fontSize=10;" value="+ writeToLog(message: string): void" vertex="1">
+          <mxGeometry height="35" width="190" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-290" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=right;verticalAlign=top;fontSize=9;fontStyle=2;" value="Zodpovědnost:&#xa;Zálohy a logování (UC6)" vertex="1">
+          <mxGeometry height="30" width="70" x="2177" y="-14.5" as="geometry" />
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-291" parent="1" style="swimlane;startSize=25;fontStyle=1;fontSize=11;strokeColor=#000000;fillColor=#ffffff;" value="Teacher" vertex="1">
+          <mxGeometry height="160" width="270" x="2362" y="-417" as="geometry" />
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-292" parent="xRVcoeAHJEwT6_EBcB39-291" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=6;fontSize=10;" value="+ teacherId: int&#xa;+ name: string&#xa;+ email: string&#xa;+ bio: string" vertex="1">
+          <mxGeometry height="65" width="270" y="25" as="geometry" />
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-293" parent="xRVcoeAHJEwT6_EBcB39-291" style="line;strokeColor=#000000;fillColor=none;" value="" vertex="1">
+          <mxGeometry height="10" width="270" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-294" parent="xRVcoeAHJEwT6_EBcB39-291" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=6;fontSize=10;" value="+ createCourse(): void&#xa;+ manageCourse(courseId: int): void&#xa;+ communicateWithStudent(): void&#xa;+ reportUser(): void" vertex="1">
+          <mxGeometry height="65" width="270" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-295" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;fontSize=9;fontStyle=2;" value="Zodpovědnost:&#xa;Výuka (UC1-UC9)" vertex="1">
+          <mxGeometry height="40" width="55" x="2652" y="-347" as="geometry" />
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-296" parent="1" style="swimlane;startSize=25;fontStyle=1;fontSize=11;strokeColor=#000000;fillColor=#ffffff;" value="Lesson" vertex="1">
+          <mxGeometry height="175" width="270" x="2362" y="-162" as="geometry" />
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-297" parent="xRVcoeAHJEwT6_EBcB39-296" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=6;fontSize=10;" value="+ lessonId: int&#xa;+ scheduledTime: DateTime&#xa;+ duration: int&#xa;+ isActive: bool" vertex="1">
+          <mxGeometry height="65" width="270" y="25" as="geometry" />
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-298" parent="xRVcoeAHJEwT6_EBcB39-296" style="line;strokeColor=#000000;fillColor=none;" value="" vertex="1">
+          <mxGeometry height="10" width="270" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-299" parent="xRVcoeAHJEwT6_EBcB39-296" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=6;fontSize=10;" value="+ startLesson(): void&#xa;+ endLesson(): void&#xa;+ muteUser(userId: int): void&#xa;+ shareScreen(): void&#xa;+ sendNotification(): void" vertex="1">
+          <mxGeometry height="80" width="270" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-300" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;fontSize=9;fontStyle=2;" value="Zodpovědnost:&#xa;Vyučování&#xa;(UC7, UC10)" vertex="1">
+          <mxGeometry height="50" width="55" x="2642" y="-87" as="geometry" />
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-301" parent="1" style="swimlane;startSize=25;fontStyle=1;fontSize=11;strokeColor=#000000;fillColor=#ffffff;" value="Enrollment" vertex="1">
+          <mxGeometry height="155" width="250" x="1602" y="138" as="geometry" />
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-302" parent="xRVcoeAHJEwT6_EBcB39-301" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=6;fontSize=10;" value="+ enrollmentId: int&#xa;+ enrolledAt: DateTime&#xa;+ isActive: bool" vertex="1">
+          <mxGeometry height="55" width="250" y="25" as="geometry" />
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-303" parent="xRVcoeAHJEwT6_EBcB39-301" style="line;strokeColor=#000000;fillColor=none;" value="" vertex="1">
+          <mxGeometry height="10" width="250" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-304" parent="xRVcoeAHJEwT6_EBcB39-301" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=6;fontSize=10;" value="+ enroll(): void&#xa;+ unenroll(): void&#xa;+ extendCourse(): void" vertex="1">
+          <mxGeometry height="55" width="250" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-305" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=9;fontStyle=2;" value="Zodpovědnost:&#xa;Registrace kurzu&#xa;(UC4, UC11)" vertex="1">
+          <mxGeometry height="50" width="52" x="1525" y="195.5" as="geometry" />
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-306" parent="1" style="swimlane;startSize=25;fontStyle=1;fontSize=11;strokeColor=#000000;fillColor=#ffffff;" value="Payment" vertex="1">
+          <mxGeometry height="155" width="250" x="1932" y="138" as="geometry" />
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-307" parent="xRVcoeAHJEwT6_EBcB39-306" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=6;fontSize=10;" value="+ paymentId: int&#xa;+ amount: float&#xa;+ status: string&#xa;+ paidAt: DateTime" vertex="1">
+          <mxGeometry height="65" width="250" y="25" as="geometry" />
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-308" parent="xRVcoeAHJEwT6_EBcB39-306" style="line;strokeColor=#000000;fillColor=none;" value="" vertex="1">
+          <mxGeometry height="10" width="250" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-309" parent="xRVcoeAHJEwT6_EBcB39-306" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=6;fontSize=10;" value="+ processPayment(): void&#xa;+ refund(): void&#xa;+ sendInvoice(): void" vertex="1">
+          <mxGeometry height="60" width="250" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-310" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;fontSize=9;fontStyle=2;" value="Zodpovědnost:&#xa;Platba (UC6)" vertex="1">
+          <mxGeometry height="40" width="55" x="2202" y="213" as="geometry" />
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-311" parent="1" style="swimlane;startSize=25;fontStyle=1;fontSize=11;strokeColor=#000000;fillColor=#ffffff;" value="Message" vertex="1">
+          <mxGeometry height="135" width="270" x="2362" y="138" as="geometry" />
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-312" parent="xRVcoeAHJEwT6_EBcB39-311" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=6;fontSize=10;" value="+ messageId: int&#xa;+ content: string&#xa;+ sentAt: DateTime&#xa;+ isRead: bool" vertex="1">
+          <mxGeometry height="65" width="270" y="25" as="geometry" />
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-313" parent="xRVcoeAHJEwT6_EBcB39-311" style="line;strokeColor=#000000;fillColor=none;" value="" vertex="1">
+          <mxGeometry height="10" width="270" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-314" parent="xRVcoeAHJEwT6_EBcB39-311" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=6;fontSize=10;" value="+ send(): void&#xa;+ markAsRead(): void" vertex="1">
+          <mxGeometry height="50" width="270" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-315" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;fontSize=9;fontStyle=2;" value="Zodpovědnost:&#xa;Komunikace&#xa;(UC3, UC4)" vertex="1">
+          <mxGeometry height="50" width="55" x="2642" y="203" as="geometry" />
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-316" parent="1" style="swimlane;startSize=25;fontStyle=1;fontSize=11;strokeColor=#000000;fillColor=#ffffff;" value="StudyMaterial" vertex="1">
+          <mxGeometry height="155" width="250" x="1602" y="388" as="geometry" />
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-317" parent="xRVcoeAHJEwT6_EBcB39-316" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=6;fontSize=10;" value="+ materialId: int&#xa;+ title: string&#xa;+ fileUrl: string&#xa;+ uploadedAt: DateTime" vertex="1">
+          <mxGeometry height="65" width="250" y="25" as="geometry" />
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-318" parent="xRVcoeAHJEwT6_EBcB39-316" style="line;strokeColor=#000000;fillColor=none;" value="" vertex="1">
+          <mxGeometry height="10" width="250" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-319" parent="xRVcoeAHJEwT6_EBcB39-316" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=6;fontSize=10;" value="+ upload(): void&#xa;+ edit(): void&#xa;+ delete(): void" vertex="1">
+          <mxGeometry height="45" width="250" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-320" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=9;fontStyle=2;" value="Zodpovědnost:&#xa;Materiály (UC8)" vertex="1">
+          <mxGeometry height="40" width="52" x="1860" y="445.5" as="geometry" />
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-321" edge="1" parent="1" source="xRVcoeAHJEwT6_EBcB39-266" style="endArrow=open;endFill=0;endSize=8;startArrow=none;strokeColor=#000000;exitX=1;exitY=0;exitDx=0;exitDy=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2072" y="-327" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-322" connectable="0" parent="xRVcoeAHJEwT6_EBcB39-321" style="resizable=0;html=1;align=left;verticalAlign=bottom;fontSize=9;" value="1" vertex="1">
+          <mxGeometry relative="1" x="-0.85" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-323" connectable="0" parent="xRVcoeAHJEwT6_EBcB39-321" style="resizable=0;html=1;align=right;verticalAlign=bottom;fontSize=9;" value="0..*" vertex="1">
+          <mxGeometry relative="1" x="0.85" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-324" edge="1" parent="1" source="xRVcoeAHJEwT6_EBcB39-263" style="endArrow=open;endFill=0;endSize=8;startArrow=none;strokeColor=#000000;" target="xRVcoeAHJEwT6_EBcB39-275" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-325" connectable="0" parent="xRVcoeAHJEwT6_EBcB39-324" style="resizable=0;html=1;align=left;verticalAlign=bottom;fontSize=9;" value="1" vertex="1">
+          <mxGeometry relative="1" x="-0.85" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-326" connectable="0" parent="xRVcoeAHJEwT6_EBcB39-324" style="resizable=0;html=1;align=right;verticalAlign=bottom;fontSize=9;" value="0..*" vertex="1">
+          <mxGeometry relative="1" x="0.85" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-327" edge="1" parent="1" source="xRVcoeAHJEwT6_EBcB39-263" style="endArrow=open;endFill=0;endSize=8;startArrow=none;strokeColor=#000000;entryX=0.133;entryY=0.002;entryDx=0;entryDy=0;entryPerimeter=0;" target="xRVcoeAHJEwT6_EBcB39-281" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1872" y="-207" />
+              <mxPoint x="1932" y="-207" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-328" connectable="0" parent="xRVcoeAHJEwT6_EBcB39-327" style="resizable=0;html=1;align=left;verticalAlign=bottom;fontSize=9;" value="1" vertex="1">
+          <mxGeometry relative="1" x="-0.85" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-329" connectable="0" parent="xRVcoeAHJEwT6_EBcB39-327" style="resizable=0;html=1;align=right;verticalAlign=bottom;fontSize=9;" value="0..*" vertex="1">
+          <mxGeometry relative="1" x="0.85" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-330" edge="1" parent="1" source="xRVcoeAHJEwT6_EBcB39-281" style="endArrow=none;startArrow=diamondThin;startFill=1;startSize=10;strokeColor=#000000;" target="xRVcoeAHJEwT6_EBcB39-286" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-331" connectable="0" parent="xRVcoeAHJEwT6_EBcB39-330" style="resizable=0;html=1;align=left;verticalAlign=bottom;fontSize=9;" value="1" vertex="1">
+          <mxGeometry relative="1" x="-0.85" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-332" connectable="0" parent="xRVcoeAHJEwT6_EBcB39-330" style="resizable=0;html=1;align=right;verticalAlign=bottom;fontSize=9;" value="0..*" vertex="1">
+          <mxGeometry relative="1" x="0.85" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-333" edge="1" parent="1" source="xRVcoeAHJEwT6_EBcB39-268" style="endArrow=open;endFill=0;endSize=8;startArrow=none;strokeColor=#000000;dashed=1;" target="xRVcoeAHJEwT6_EBcB39-270" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-334" edge="1" parent="1" source="xRVcoeAHJEwT6_EBcB39-270" style="endArrow=open;endFill=0;endSize=8;startArrow=none;strokeColor=#000000;entryX=0.987;entryY=0.104;entryDx=0;entryDy=0;entryPerimeter=0;" target="xRVcoeAHJEwT6_EBcB39-301" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2012" y="-207" />
+              <mxPoint x="1892" y="-207" />
+              <mxPoint x="1892" y="-27" />
+              <mxPoint x="1892" y="153" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-335" connectable="0" parent="xRVcoeAHJEwT6_EBcB39-334" style="resizable=0;html=1;align=left;verticalAlign=bottom;fontSize=9;" value="1" vertex="1">
+          <mxGeometry relative="1" x="-0.85" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-336" connectable="0" parent="xRVcoeAHJEwT6_EBcB39-334" style="resizable=0;html=1;align=right;verticalAlign=bottom;fontSize=9;" value="0..*" vertex="1">
+          <mxGeometry relative="1" x="0.85" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-337" edge="1" parent="1" source="xRVcoeAHJEwT6_EBcB39-301" style="endArrow=open;endFill=0;endSize=8;startArrow=none;strokeColor=#000000;" target="xRVcoeAHJEwT6_EBcB39-275" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-338" connectable="0" parent="xRVcoeAHJEwT6_EBcB39-337" style="resizable=0;html=1;align=left;verticalAlign=bottom;fontSize=9;" value="0..*" vertex="1">
+          <mxGeometry relative="1" x="-0.85" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-339" connectable="0" parent="xRVcoeAHJEwT6_EBcB39-337" style="resizable=0;html=1;align=right;verticalAlign=bottom;fontSize=9;" value="1" vertex="1">
+          <mxGeometry relative="1" x="0.85" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-340" edge="1" parent="1" source="xRVcoeAHJEwT6_EBcB39-301" style="endArrow=open;endFill=0;endSize=8;startArrow=none;strokeColor=#000000;entryX=0;entryY=0.851;entryDx=0;entryDy=0;entryPerimeter=0;" target="xRVcoeAHJEwT6_EBcB39-307" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-341" connectable="0" parent="xRVcoeAHJEwT6_EBcB39-340" style="resizable=0;html=1;align=left;verticalAlign=bottom;fontSize=9;" value="1" vertex="1">
+          <mxGeometry relative="1" x="-0.85" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-342" connectable="0" parent="xRVcoeAHJEwT6_EBcB39-340" style="resizable=0;html=1;align=right;verticalAlign=bottom;fontSize=9;" value="1" vertex="1">
+          <mxGeometry relative="1" x="0.85" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-343" edge="1" parent="1" source="xRVcoeAHJEwT6_EBcB39-291" style="endArrow=open;endFill=0;endSize=8;startArrow=none;strokeColor=#000000;" target="xRVcoeAHJEwT6_EBcB39-275" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2322" y="-207" />
+              <mxPoint x="2092" y="-207" />
+              <mxPoint x="1792" y="-207" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-344" connectable="0" parent="xRVcoeAHJEwT6_EBcB39-343" style="resizable=0;html=1;align=right;verticalAlign=bottom;fontSize=9;" value="1" vertex="1">
+          <mxGeometry relative="1" x="-0.85" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-345" connectable="0" parent="xRVcoeAHJEwT6_EBcB39-343" style="resizable=0;html=1;align=left;verticalAlign=bottom;fontSize=9;" value="0..*" vertex="1">
+          <mxGeometry relative="1" x="0.85" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-346" edge="1" parent="1" style="endArrow=open;endFill=0;endSize=8;startArrow=none;strokeColor=#000000;entryX=0.665;entryY=0.002;entryDx=0;entryDy=0;entryPerimeter=0;" target="xRVcoeAHJEwT6_EBcB39-296" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2542" y="-197" />
+            </Array>
+            <mxPoint x="2542" y="-247" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-347" connectable="0" parent="xRVcoeAHJEwT6_EBcB39-346" style="resizable=0;html=1;align=left;verticalAlign=bottom;fontSize=9;" value="1" vertex="1">
+          <mxGeometry relative="1" x="-0.85" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-348" connectable="0" parent="xRVcoeAHJEwT6_EBcB39-346" style="resizable=0;html=1;align=right;verticalAlign=bottom;fontSize=9;" value="0..*" vertex="1">
+          <mxGeometry relative="1" x="0.85" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-349" edge="1" parent="1" source="xRVcoeAHJEwT6_EBcB39-278" style="endArrow=open;endFill=0;endSize=8;startArrow=none;strokeColor=#000000;entryX=-0.005;entryY=0.363;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1.014;exitY=0.102;exitDx=0;exitDy=0;exitPerimeter=0;" target="xRVcoeAHJEwT6_EBcB39-299" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-350" connectable="0" parent="xRVcoeAHJEwT6_EBcB39-349" style="resizable=0;html=1;align=left;verticalAlign=bottom;fontSize=9;" value="1" vertex="1">
+          <mxGeometry relative="1" x="-0.85" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-351" connectable="0" parent="xRVcoeAHJEwT6_EBcB39-349" style="resizable=0;html=1;align=right;verticalAlign=bottom;fontSize=9;" value="0..*" vertex="1">
+          <mxGeometry relative="1" x="0.85" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-352" edge="1" parent="1" source="xRVcoeAHJEwT6_EBcB39-278" style="endArrow=open;endFill=0;endSize=8;startArrow=none;strokeColor=#000000;exitX=0;exitY=1;exitDx=0;exitDy=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1502" y="48" />
+              <mxPoint x="1502" y="388" />
+            </Array>
+            <mxPoint x="1602" y="388" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-353" connectable="0" parent="xRVcoeAHJEwT6_EBcB39-352" style="resizable=0;html=1;align=left;verticalAlign=bottom;fontSize=9;" value="1" vertex="1">
+          <mxGeometry relative="1" x="-0.85" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-354" connectable="0" parent="xRVcoeAHJEwT6_EBcB39-352" style="resizable=0;html=1;align=right;verticalAlign=bottom;fontSize=9;" value="0..*" vertex="1">
+          <mxGeometry relative="1" x="0.85" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-355" edge="1" parent="1" source="xRVcoeAHJEwT6_EBcB39-270" style="endArrow=open;endFill=0;endSize=8;startArrow=none;strokeColor=#000000;" target="xRVcoeAHJEwT6_EBcB39-311" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2332" y="-207" />
+              <mxPoint x="2332" y="-107" />
+              <mxPoint x="2332" y="93" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-356" connectable="0" parent="xRVcoeAHJEwT6_EBcB39-355" style="resizable=0;html=1;align=left;verticalAlign=bottom;fontSize=9;" value="1" vertex="1">
+          <mxGeometry relative="1" x="-0.85" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-357" connectable="0" parent="xRVcoeAHJEwT6_EBcB39-355" style="resizable=0;html=1;align=right;verticalAlign=bottom;fontSize=9;" value="0..*" vertex="1">
+          <mxGeometry relative="1" x="0.85" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-358" edge="1" parent="1" source="xRVcoeAHJEwT6_EBcB39-294" style="endArrow=open;endFill=0;endSize=8;startArrow=none;strokeColor=#000000;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;" target="xRVcoeAHJEwT6_EBcB39-311" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2772" y="-284" />
+              <mxPoint x="2772" y="-77" />
+              <mxPoint x="2772" y="138" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-359" connectable="0" parent="xRVcoeAHJEwT6_EBcB39-358" style="resizable=0;html=1;align=left;verticalAlign=bottom;fontSize=9;" value="1" vertex="1">
+          <mxGeometry relative="1" x="-0.85" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-360" connectable="0" parent="xRVcoeAHJEwT6_EBcB39-358" style="resizable=0;html=1;align=right;verticalAlign=bottom;fontSize=9;" value="0..*" vertex="1">
+          <mxGeometry relative="1" x="0.85" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
