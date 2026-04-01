@@ -1,6 +1,6 @@
 <mxfile host="Electron" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.6.6 Chrome/144.0.7559.236 Electron/40.8.4 Safari/537.36" version="29.6.6">
   <diagram name="Stránka-1" id="R_A94fPjkbCK7uzgsJNr">
-    <mxGraphModel dx="2297" dy="1598" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1943" dy="1297" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -815,7 +815,7 @@
         <mxCell id="xRVcoeAHJEwT6_EBcB39-263" parent="1" style="swimlane;startSize=25;fontStyle=1;fontSize=11;strokeColor=#000000;fillColor=#ffffff;" value="Admin" vertex="1">
           <mxGeometry height="150" width="250" x="1591" y="-449" as="geometry" />
         </mxCell>
-        <mxCell id="xRVcoeAHJEwT6_EBcB39-264" parent="xRVcoeAHJEwT6_EBcB39-263" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=6;fontSize=10;" value="+ adminId: int&#xa;+ name: string&#xa;+ email: string" vertex="1">
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-264" parent="xRVcoeAHJEwT6_EBcB39-263" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=6;fontSize=10;" value="+ adminId: int&lt;br&gt;+ name: string&lt;br&gt;+ email: string&lt;div&gt;+ password: string&lt;/div&gt;" vertex="1">
           <mxGeometry height="55" width="250" y="25" as="geometry" />
         </mxCell>
         <mxCell id="xRVcoeAHJEwT6_EBcB39-265" parent="xRVcoeAHJEwT6_EBcB39-263" style="line;strokeColor=#000000;fillColor=none;" value="" vertex="1">
@@ -836,7 +836,7 @@
         <mxCell id="xRVcoeAHJEwT6_EBcB39-270" parent="1" style="swimlane;startSize=25;fontStyle=1;fontSize=11;strokeColor=#000000;fillColor=#ffffff;" value="User" vertex="1">
           <mxGeometry height="140" width="230" x="2061" y="-449" as="geometry" />
         </mxCell>
-        <mxCell id="xRVcoeAHJEwT6_EBcB39-271" parent="xRVcoeAHJEwT6_EBcB39-270" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=6;fontSize=10;" value="+ userId: int&#xa;+ email: string&#xa;+ name: string&#xa;+ status: UserStatus" vertex="1">
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-271" parent="xRVcoeAHJEwT6_EBcB39-270" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=6;fontSize=10;" value="+ userId: int&lt;br&gt;+ email: string&lt;br&gt;+ name: string&lt;br&gt;+ status: UserStatus&lt;div&gt;+ password: string&lt;/div&gt;" vertex="1">
           <mxGeometry height="65" width="230" y="25" as="geometry" />
         </mxCell>
         <mxCell id="xRVcoeAHJEwT6_EBcB39-272" parent="xRVcoeAHJEwT6_EBcB39-270" style="line;strokeColor=#000000;fillColor=none;" value="" vertex="1">
@@ -857,7 +857,7 @@
         <mxCell id="xRVcoeAHJEwT6_EBcB39-277" parent="xRVcoeAHJEwT6_EBcB39-275" style="line;strokeColor=#000000;fillColor=none;" value="" vertex="1">
           <mxGeometry height="10" width="250" y="105" as="geometry" />
         </mxCell>
-        <mxCell id="xRVcoeAHJEwT6_EBcB39-278" parent="xRVcoeAHJEwT6_EBcB39-275" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=6;fontSize=10;" value="+ edit(newName: string, newDescription: string): void&#xa;+ delete(): void&#xa;+ removeFromPublicListing(): void&#xa;+ publish(): void" vertex="1">
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-278" parent="xRVcoeAHJEwT6_EBcB39-275" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=6;fontSize=10;" value="+ edit(newName: string, newDescription: string,&lt;div&gt;&amp;nbsp;newPrice: void)&lt;br&gt;+ deleteSelf(): void&lt;br&gt;+ removeFromPublicListing(): void&lt;br&gt;+ publish(bool stat): void&lt;/div&gt;" vertex="1">
           <mxGeometry height="95" width="250" y="115" as="geometry" />
         </mxCell>
         <mxCell id="xRVcoeAHJEwT6_EBcB39-279" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=9;fontStyle=2;" value="Zodpovědnost:&#xa;Správa kurzů&#xa;(UC8, UC9, UC10)" vertex="1">
@@ -882,7 +882,7 @@
           <mxGeometry height="35" width="90" x="1956" y="-49" as="geometry" />
         </mxCell>
         <mxCell id="xRVcoeAHJEwT6_EBcB39-286" parent="1" style="swimlane;startSize=25;fontStyle=1;fontSize=11;strokeColor=#000000;fillColor=#ffffff;" value="SystemLog" vertex="1">
-          <mxGeometry height="140" width="190" x="2106" y="-194" as="geometry" />
+          <mxGeometry height="147" width="190" x="2106" y="-194" as="geometry" />
         </mxCell>
         <mxCell id="xRVcoeAHJEwT6_EBcB39-287" parent="xRVcoeAHJEwT6_EBcB39-286" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=6;fontSize=10;" value="+ logId: int&#xa;+ timestamp: DateTime&#xa;+ message: string" vertex="1">
           <mxGeometry height="55" width="190" y="25" as="geometry" />
@@ -890,23 +890,23 @@
         <mxCell id="xRVcoeAHJEwT6_EBcB39-288" parent="xRVcoeAHJEwT6_EBcB39-286" style="line;strokeColor=#000000;fillColor=none;" value="" vertex="1">
           <mxGeometry height="10" width="190" y="80" as="geometry" />
         </mxCell>
-        <mxCell id="xRVcoeAHJEwT6_EBcB39-289" parent="xRVcoeAHJEwT6_EBcB39-286" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=6;fontSize=10;" value="+ writeToLog(message: string): void" vertex="1">
-          <mxGeometry height="35" width="190" y="90" as="geometry" />
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-289" parent="xRVcoeAHJEwT6_EBcB39-286" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=6;fontSize=10;" value="+ writeToLog(message: string): void&lt;div&gt;+ getLog(): void&lt;/div&gt;" vertex="1">
+          <mxGeometry height="57" width="183" y="90" as="geometry" />
         </mxCell>
         <mxCell id="xRVcoeAHJEwT6_EBcB39-290" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=right;verticalAlign=top;fontSize=9;fontStyle=2;" value="Zodpovědnost:&#xa;Zálohy a logování (UC6)" vertex="1">
           <mxGeometry height="30" width="70" x="2166" y="-46.5" as="geometry" />
         </mxCell>
         <mxCell id="xRVcoeAHJEwT6_EBcB39-291" parent="1" style="swimlane;startSize=25;fontStyle=1;fontSize=11;strokeColor=#000000;fillColor=#ffffff;" value="Teacher" vertex="1">
-          <mxGeometry height="160" width="270" x="2351" y="-449" as="geometry" />
+          <mxGeometry height="171" width="270" x="2351" y="-449" as="geometry" />
         </mxCell>
-        <mxCell id="xRVcoeAHJEwT6_EBcB39-292" parent="xRVcoeAHJEwT6_EBcB39-291" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=6;fontSize=10;" value="+ teacherId: int&#xa;+ name: string&#xa;+ email: string&#xa;+ bio: string" vertex="1">
-          <mxGeometry height="65" width="270" y="25" as="geometry" />
+        <mxCell id="xRVcoeAHJEwT6_EBcB39-292" parent="xRVcoeAHJEwT6_EBcB39-291" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=6;fontSize=10;" value="+ teacherId: int&lt;br&gt;+ name: string&lt;br&gt;+ email: string&lt;br&gt;+ bio: string&lt;div&gt;+ password: string&lt;/div&gt;&lt;div&gt;+ Course* access&lt;/div&gt;" vertex="1">
+          <mxGeometry height="82" width="270" y="25" as="geometry" />
         </mxCell>
         <mxCell id="xRVcoeAHJEwT6_EBcB39-293" parent="xRVcoeAHJEwT6_EBcB39-291" style="line;strokeColor=#000000;fillColor=none;" value="" vertex="1">
-          <mxGeometry height="10" width="270" y="90" as="geometry" />
+          <mxGeometry height="10" width="270" y="108" as="geometry" />
         </mxCell>
         <mxCell id="xRVcoeAHJEwT6_EBcB39-294" parent="xRVcoeAHJEwT6_EBcB39-291" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=6;fontSize=10;" value="+ createCourse(): void&#xa;+ manageCourse(courseId: int): void&#xa;+ communicateWithStudent(): void&#xa;+ reportUser(): void" vertex="1">
-          <mxGeometry height="65" width="270" y="100" as="geometry" />
+          <mxGeometry height="58" width="270" y="113" as="geometry" />
         </mxCell>
         <mxCell id="xRVcoeAHJEwT6_EBcB39-295" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;fontSize=9;fontStyle=2;" value="Zodpovědnost:&#xa;Výuka (UC1-UC9)" vertex="1">
           <mxGeometry height="40" width="55" x="2641" y="-379" as="geometry" />
@@ -915,7 +915,7 @@
           <mxGeometry height="175" width="270" x="2351" y="-194" as="geometry" />
         </mxCell>
         <mxCell id="xRVcoeAHJEwT6_EBcB39-297" parent="xRVcoeAHJEwT6_EBcB39-296" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=6;fontSize=10;" value="+ lessonId: int&#xa;+ scheduledTime: DateTime&#xa;+ duration: int&#xa;+ isActive: bool" vertex="1">
-          <mxGeometry height="65" width="270" y="25" as="geometry" />
+          <mxGeometry height="65" width="270" x="52" y="-81" as="geometry" />
         </mxCell>
         <mxCell id="xRVcoeAHJEwT6_EBcB39-298" parent="xRVcoeAHJEwT6_EBcB39-296" style="line;strokeColor=#000000;fillColor=none;" value="" vertex="1">
           <mxGeometry height="10" width="270" y="90" as="geometry" />
