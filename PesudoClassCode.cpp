@@ -13,8 +13,8 @@ private:
     string email;
     string password;
     // ACCESS
-    Teacher* accessTeacher;
-    User* accessUser;
+    Teacher** accessTeacher;
+    User** accessUser;
 
 public:
     Admin(int id, string n, string e ,string p);
@@ -35,7 +35,7 @@ private:
     string email;
     string bio;
     string password;
-    Course* access;
+    Course** access;
     Comunication* chat;
 
 public:
@@ -68,7 +68,7 @@ private:
     string email;
     string password;
     UserStatus* userStatus;
-    Course* accessCourse;
+    Course** accessCourse;
     Comunication* chat;
 
 public:
@@ -78,7 +78,9 @@ public:
     void changeStatus(UserStatus newStatus);
     void restoreAccount();
     void comunicateWithTeacher();
+
     void courseAccess();
+    void addCourse();
 };
 
 
